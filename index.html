@@ -3,26 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CustoCorp | Custom Corporate Gifting Solutions for Every Business</title>
-    <meta name="description" content="Premium, customized corporate gifting solutions for businesses, startups, and corporate clients. Quality, creativity, and unique branding.">
+    <title>CustoCorp | Corporate Gifting &amp; Employee Engagement Partner</title>
+    <meta name="description" content="CustoCorp creates premium customized corporate gifts, bulk orders and promotional merchandise for businesses, startups and corporate leaders. Based in Kerala, delivering across India.">
+    <meta name="theme-color" content="#0a0a0b">
+    <link rel="canonical" href="https://custocorp.in/">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CustoCorp | Corporate Gifting &amp; Employee Engagement Partner">
+    <meta property="og:description" content="Bulk orders, corporate gifts and promotional merchandise, customized with your brand.">
+    <meta property="og:url" content="https://custocorp.in/">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- For icons, alternatively I'll use svg inline if it fails -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CustoCorp",
+      "description": "Corporate gifting and employee engagement partner. Bulk orders, corporate gifts and promotional merchandise.",
+      "url": "https://custocorp.in/",
+      "email": "salescustocorp@gmail.com",
+      "telephone": "+918136830182",
+      "taxID": "32AAWFC6374R1ZH",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ground Floor 11/207 CUSTOCORP, Poonoor Narikkuni Road",
+        "addressLocality": "Unnikulam",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
 </head>
 <body>
+
+    <!-- ============ NAVBAR ============ -->
     <header class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">Custo<span>Corp</span></a>
-            <nav class="nav-links">
+            <a href="#home" class="logo" aria-label="CustoCorp home">
+                <img src="logo.svg" alt="" class="logo-mark" width="44" height="44">
+                <span class="logo-text">CUSTO<span>CORP</span></span>
+            </a>
+            <nav class="nav-links" aria-label="Main">
                 <a href="#about">About</a>
-                <a href="#products">Products</a>
+                <a href="#products">Collections</a>
                 <a href="#customization">Customization</a>
+                <a href="#process">Process</a>
                 <a href="#portfolio">Our Work</a>
-                <a href="#contact" class="btn btn-outline">Contact Us</a>
+                <a href="#contact" class="btn btn-outline">Get a Quote</a>
             </nav>
-            <div class="mobile-menu-btn">
+            <div class="mobile-menu-btn" role="button" tabindex="0">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -30,35 +65,46 @@
         </div>
     </header>
 
-    <!-- 1. Homepage Hero -->
+    <!-- ============ HERO ============ -->
     <section class="hero" id="home">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1 class="fade-up">Custom Corporate Gifting Solutions for Every Business</h1>
-            <p class="fade-up delay-1">Elevate your brand with personalized, high-quality bulk gifting. From employee onboarding to festive hampers, we create unforgettable impressions.</p>
-            <div class="hero-btns fade-up delay-2">
-                <a href="#contact" class="btn btn-primary">Get a Quote</a>
-                <a href="#products" class="btn btn-secondary">Explore Products</a>
+            <p class="eyebrow fade-up">Corporate Gifting &amp; Employee Engagement Partner</p>
+            <h1 class="fade-up delay-1">Gifts that carry your <em>brand</em> with distinction.</h1>
+            <p class="hero-lead fade-up delay-2">Personalized, high-quality bulk gifting for onboarding, festivals, milestones and client appreciation. Designed around your identity, delivered across India.</p>
+            <div class="hero-btns fade-up delay-3">
+                <a href="#contact" class="btn btn-primary">Request a Quote</a>
+                <a href="#products" class="btn btn-secondary">Explore Collections</a>
             </div>
         </div>
+        <a href="#about" class="scroll-cue" aria-label="Scroll to content"><span></span></a>
     </section>
 
-    <!-- 2. About Us -->
+    <!-- ============ SERVICE STRIP ============ -->
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>Bulk Orders</span><i>◆</i><span>Corporate Gifts</span><i>◆</i><span>Promotional Merchandise</span><i>◆</i><span>Employee Engagement</span><i>◆</i><span>Custom Branding</span><i>◆</i>
+            <span>Bulk Orders</span><i>◆</i><span>Corporate Gifts</span><i>◆</i><span>Promotional Merchandise</span><i>◆</i><span>Employee Engagement</span><i>◆</i><span>Custom Branding</span><i>◆</i>
+        </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
     <section class="about section-padding" id="about">
         <div class="container about-container">
             <div class="about-text slide-in-left">
+                <p class="eyebrow">About CustoCorp</p>
                 <h2 class="section-title">The Art of Corporate Gifting</h2>
                 <div class="title-underline"></div>
-                <p>CustoCorp is your premium partner in creating customized corporate gifts that speak volumes. We specialize in curating luxury, high-quality, and meaningful gifts targeting businesses, startups, and corporate leaders.</p>
-                <p>Our commitment to creativity and client satisfaction ensures every package we deliver leaves a lasting positive impact on your employees and clients.</p>
+                <p>CustoCorp is your partner in creating customized corporate gifts that speak for your brand. We curate high-quality, meaningful gifts for businesses, startups and corporate leaders, and support teams with thoughtful employee engagement programs.</p>
+                <p>Our commitment to creativity and client satisfaction ensures every package we deliver leaves a lasting impression on your employees and clients.</p>
                 <ul class="about-features">
-                    <li><i class="icon-check">✓</i> Uncompromising Quality</li>
-                    <li><i class="icon-check">✓</i> Innovative Creativity</li>
-                    <li><i class="icon-check">✓</i> 100% Client Satisfaction</li>
+                    <li><i class="icon-check">✓</i> Uncompromising quality</li>
+                    <li><i class="icon-check">✓</i> Innovative creativity</li>
+                    <li><i class="icon-check">✓</i> 100% client satisfaction</li>
                 </ul>
             </div>
             <div class="about-image slide-in-right">
-                <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Premium Corporate Gifts">
+                <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Premium corporate gift box">
                 <div class="experience-badge">
                     <span class="number">4+</span>
                     <span class="text">Years of Excellence</span>
@@ -67,47 +113,53 @@
         </div>
     </section>
 
-    <!-- 3. Products / Categories -->
+    <!-- ============ COLLECTIONS ============ -->
     <section class="products section-padding bg-dark" id="products">
         <div class="container">
             <div class="text-center fade-up">
+                <p class="eyebrow">Collections</p>
                 <h2 class="section-title">Our Distinctive Categories</h2>
                 <div class="title-underline mx-auto"></div>
                 <p class="section-subtitle">Curated selections designed to impress and inspire.</p>
             </div>
             <div class="product-grid">
-                <div class="product-card fade-up delay-1">
-                    <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Corporate Gift Kits">
+                <div class="product-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Corporate gift kits">
                     <div class="card-content">
+                        <span class="card-num">01</span>
                         <h3>Corporate Gift Kits</h3>
                         <p>Complete curated boxes for clients and executives.</p>
                     </div>
                 </div>
-                <div class="product-card fade-up delay-2">
-                    <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Employee Onboarding Kits">
+                <div class="product-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Employee onboarding kits">
                     <div class="card-content">
+                        <span class="card-num">02</span>
                         <h3>Employee Onboarding</h3>
-                        <p>Welcome your new hires with stylish branded essentials.</p>
+                        <p>Welcome new hires with stylish branded essentials.</p>
                     </div>
                 </div>
-                <div class="product-card fade-up delay-3">
-                    <img src="https://images.unsplash.com/photo-1577061730799-73fb4dcbe6bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Festive Gift Hampers">
+                <div class="product-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1577061730799-73fb4dcbe6bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Festive gift hampers">
                     <div class="card-content">
+                        <span class="card-num">03</span>
                         <h3>Festive Hampers</h3>
                         <p>Celebrate special occasions with luxurious treats.</p>
                     </div>
                 </div>
-                <div class="product-card fade-up delay-1">
-                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Promotional Merchandise">
+                <div class="product-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Promotional merchandise">
                     <div class="card-content">
+                        <span class="card-num">04</span>
                         <h3>Promotional Merchandise</h3>
                         <p>High-quality tech and accessories with your logo.</p>
                     </div>
                 </div>
-                <div class="product-card fade-up delay-2">
-                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Eco-friendly Gifts">
+                <div class="product-card fade-up">
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Eco-friendly gifts">
                     <div class="card-content">
-                        <h3>Eco-friendly / Sustainable</h3>
+                        <span class="card-num">05</span>
+                        <h3>Eco-friendly &amp; Sustainable</h3>
                         <p>Thoughtful gifts that care for our planet.</p>
                     </div>
                 </div>
@@ -115,34 +167,34 @@
         </div>
     </section>
 
-    <!-- 4. Customization Section -->
+    <!-- ============ CUSTOMIZATION ============ -->
     <section class="customization section-padding" id="customization">
         <div class="container customization-container">
             <div class="custom-video slide-in-left">
-                <!-- Fallback to image if video not present, using abstract gold visual -->
-                <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Custom Branding" class="custom-img">
+                <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Custom branding" class="custom-img">
             </div>
             <div class="custom-text slide-in-right">
+                <p class="eyebrow">Customization</p>
                 <h2 class="section-title">Tailor-Made to Your Brand</h2>
                 <div class="title-underline"></div>
-                <p>Your brand is unique, and your gifts should reflect that. We offer bespoke customization options to ensure your corporate identity shines through every detail.</p>
+                <p class="lead-muted">Your brand is unique, and your gifts should reflect that. We offer bespoke customization so your corporate identity shines through every detail.</p>
                 <div class="custom-features">
                     <div class="feature-item">
-                        <div class="feature-icon">🏅</div>
+                        <div class="feature-icon"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14.5 7 22l5-3 5 3-1.5-7.5"/></svg></div>
                         <div class="feature-details">
                             <h4>Logo Printing</h4>
-                            <p>Precision engraving, embroidery, and printing on all items.</p>
+                            <p>Precision engraving, embroidery and printing on all items.</p>
                         </div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-icon">✨</div>
+                        <div class="feature-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
                         <div class="feature-details">
                             <h4>Packaging Design</h4>
-                            <p>Premium rigid boxes, ribbons, and personalized greeting cards.</p>
+                            <p>Premium rigid boxes, ribbons and personalized greeting cards.</p>
                         </div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-icon">📦</div>
+                        <div class="feature-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
                         <div class="feature-details">
                             <h4>Bulk Order Capability</h4>
                             <p>Seamless processing and delivery for large-scale company orders.</p>
@@ -153,136 +205,201 @@
         </div>
     </section>
 
-    <!-- 5. Why Choose Us -->
-    <section class="features section-padding bg-dark">
-        <div class="container text-center fade-up">
-            <h2 class="section-title">Why Choose CustoCorp</h2>
-            <div class="title-underline mx-auto"></div>
-            
-            <div class="stats-grid">
-                <div class="stat-box fade-up delay-1">
-                    <div class="stat-icon">💎</div>
-                    <h3>Premium Quality</h3>
-                    <p>We source only the finest materials for unparalleled elegance.</p>
-                </div>
-                <div class="stat-box fade-up delay-2">
-                    <div class="stat-icon">🔖</div>
-                    <h3>Competitive Bulk Pricing</h3>
-                    <p>Luxury meets value with our scalable pricing models.</p>
-                </div>
-                <div class="stat-box fade-up delay-3">
-                    <div class="stat-icon">🚀</div>
-                    <h3>Fast & Reliable Delivery</h3>
-                    <p>On-time nationwide dispatch, tracking every step of the way.</p>
-                </div>
-                <div class="stat-box fade-up delay-4">
-                    <div class="stat-icon">🎁</div>
-                    <h3>Unique Packaging</h3>
-                    <p>Unboxing experiences designed to delight and awe.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 6. Portfolio / Gallery -->
-    <section class="portfolio section-padding" id="portfolio">
+    <!-- ============ PROCESS ============ -->
+    <section class="process section-padding bg-dark" id="process">
         <div class="container">
             <div class="text-center fade-up">
+                <p class="eyebrow">How It Works</p>
+                <h2 class="section-title">From Idea to Doorstep</h2>
+                <div class="title-underline mx-auto"></div>
+                <p class="section-subtitle">A simple, transparent process built around your timeline.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step fade-up">
+                    <span class="step-number">01</span>
+                    <h3>Enquire</h3>
+                    <p>Share your occasion, quantity and budget. We respond with ideas and a quote.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <span class="step-number">02</span>
+                    <h3>Design</h3>
+                    <p>We shape the gift, branding and packaging around your identity.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <span class="step-number">03</span>
+                    <h3>Approve</h3>
+                    <p>Review the final design and details before production begins.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <span class="step-number">04</span>
+                    <h3>Deliver</h3>
+                    <p>Careful packing and on-time dispatch, tracked every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="features section-padding">
+        <div class="container text-center">
+            <div class="fade-up">
+                <p class="eyebrow">Why CustoCorp</p>
+                <h2 class="section-title">Why Choose CustoCorp</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-box fade-up">
+                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M9 3l3 6 3-6M12 9v12"/></svg></div>
+                    <h3>Premium Quality</h3>
+                    <p>We source only the finest materials for lasting elegance.</p>
+                </div>
+                <div class="stat-box fade-up">
+                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8 0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg></div>
+                    <h3>Competitive Bulk Pricing</h3>
+                    <p>Luxury meets value with our scalable pricing.</p>
+                </div>
+                <div class="stat-box fade-up">
+                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M1 6h13v10H1zM14 10h4l3 3v3h-7z"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></div>
+                    <h3>Fast &amp; Reliable Delivery</h3>
+                    <p>On-time nationwide dispatch, tracked every step of the way.</p>
+                </div>
+                <div class="stat-box fade-up">
+                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4"/><path d="M12 8v13M5 12v9h14v-9M12 8c-2-4-6-3-5 0 .6 1.6 5 0 5 0zM12 8c2-4 6-3 5 0-.6 1.6-5 0-5 0z"/></svg></div>
+                    <h3>Unique Packaging</h3>
+                    <p>Unboxing experiences designed to delight.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="portfolio section-padding bg-dark" id="portfolio">
+        <div class="container">
+            <div class="text-center fade-up">
+                <p class="eyebrow">Portfolio</p>
                 <h2 class="section-title">Our Masterpieces</h2>
                 <div class="title-underline mx-auto"></div>
-                <p class="section-subtitle">Take a look at some of our finest recent works.</p>
+                <p class="section-subtitle">A look at some of our finest recent work.</p>
             </div>
             <div class="gallery-grid">
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&q=80" alt="Work 1"></div>
-                <div class="gallery-item fade-up delay-1"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=500&q=80" alt="Work 2"></div>
-                <div class="gallery-item fade-up delay-2"><img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=500&q=80" alt="Work 3"></div>
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80" alt="Work 4"></div>
-                <div class="gallery-item fade-up delay-1"><img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=500&q=80" alt="Work 5"></div>
-                <div class="gallery-item fade-up delay-2"><img src="https://images.unsplash.com/photo-1577061730799-73fb4dcbe6bc?w=500&q=80" alt="Work 6"></div>
+                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=700&q=80" alt="Gift box with ribbon"></div>
+                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=700&q=80" alt="Branded gift set"></div>
+                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=700&q=80" alt="Curated gift kit"></div>
+                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&q=80" alt="Corporate merchandise"></div>
+                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=700&q=80" alt="Sustainable gift"></div>
+                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1577061730799-73fb4dcbe6bc?w=700&q=80" alt="Festive hamper"></div>
             </div>
         </div>
     </section>
-    </section>
 
-    <!-- 9. Call-to-Action Banner -->
+    <!-- ============ CTA ============ -->
     <section class="cta-banner">
-        <div class="container text-center pulse">
-            <h2>Looking for the perfect corporate gift? Let’s create it together.</h2>
+        <div class="container text-center fade-up">
+            <h2>Looking for the perfect corporate gift?<br>Let’s create it together.</h2>
+            <div class="cta-actions">
+                <a href="#contact" class="btn btn-primary">Request a Quote</a>
+                <a href="https://wa.me/918136830182" target="_blank" rel="noopener" class="btn btn-secondary">Chat on WhatsApp</a>
+            </div>
         </div>
     </section>
 
-    <!-- 8. Contact Section -->
+    <!-- ============ CONTACT ============ -->
     <section class="contact section-padding" id="contact">
         <div class="container contact-container">
             <div class="contact-info slide-in-left">
+                <p class="eyebrow">Contact</p>
                 <h2 class="section-title">Get in Touch</h2>
                 <div class="title-underline"></div>
-                <p>Ready to elevate your corporate gifting? Fill out the form or reach us via our direct channels. Our experts are here to help.</p>
-                
+                <p>Ready to elevate your corporate gifting? Send us your requirement or reach us directly. Our team will respond promptly.</p>
+
                 <div class="contact-details">
                     <div class="contact-item">
-                        <span class="icon">📧</span>
-                        <a href="mailto:salescustocorp@gmail.com">salescustocorp@gmail.com</a>
+                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 005 5L15 12l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></svg></span>
+                        <div><small>Hakkeem, Sales Manager</small><a href="tel:+918136830182">+91 81368 30182</a></div>
                     </div>
                     <div class="contact-item">
-                        <span class="icon">📞</span>
-                        <a href="tel:+918547210546">+918547210546</a>
+                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+                        <div><small>Email</small><a href="mailto:salescustocorp@gmail.com">salescustocorp@gmail.com</a></div>
                     </div>
                     <div class="contact-item whatsapp-btn">
-                        <span class="icon">💬</span>
-                        <a href="https://wa.me/8547210546" target="_blank">Chat on WhatsApp</a>
+                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-13.4 7.8L3 21l1.3-4.4A9 9 0 1121 12z"/></svg></span>
+                        <div><small>WhatsApp</small><a href="https://wa.me/918136830182" target="_blank" rel="noopener">Chat with us</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+                        <div>
+                            <small>Visit us</small>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Ground+Floor+11%2F207+CUSTOCORP+Poonoor+Narikkuni+Road+Unnikulam" target="_blank" rel="noopener">Ground Floor 11/207 CUSTOCORP,<br>Poonoor Narikkuni Road, Unnikulam</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="contact-form-wrapper slide-in-right">
-                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! We will contact you shortly.');">
+                <form class="contact-form" novalidate>
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" required placeholder="John Doe">
+                        <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name">
                     </div>
                     <div class="form-group">
                         <label for="company">Company</label>
-                        <input type="text" id="company" required placeholder="Your Company Ltd.">
+                        <input type="text" id="company" name="company" required placeholder="Your company" autocomplete="organization">
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" required placeholder="+918547210546">
+                        <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" autocomplete="tel">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span class="optional">(optional)</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email">
                     </div>
                     <div class="form-group">
                         <label for="requirement">Your Requirement</label>
-                        <textarea id="requirement" rows="4" required placeholder="Tell us about the gifts you need..."></textarea>
+                        <textarea id="requirement" name="requirement" rows="4" required placeholder="Occasion, quantity, budget and any branding needs..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Request Quote</button>
+                    <p class="form-note">Your enquiry opens in WhatsApp, ready to send to our team.</p>
+                    <p class="form-status" role="status" aria-live="polite"></p>
                 </form>
             </div>
         </div>
     </section>
 
+    <!-- ============ FOOTER ============ -->
     <footer>
         <div class="container footer-content">
             <div class="footer-col">
-                <a href="#" class="logo">Custo<span>Corp</span></a>
-                <p>Premium customized corporate gifting solutions tailored for your brand.</p>
+                <a href="#home" class="logo" aria-label="CustoCorp home">
+                    <img src="logo.svg" alt="" class="logo-mark" width="44" height="44">
+                    <span class="logo-text">CUSTO<span>CORP</span></span>
+                </a>
+                <p>Your corporate gifting and employee engagement partner. Bulk orders, corporate gifts and promotional merchandise.</p>
             </div>
             <div class="footer-col">
-                <h4>Quick Links</h4>
+                <h4>Explore</h4>
                 <a href="#about">About Us</a>
-                <a href="#products">Products</a>
+                <a href="#products">Collections</a>
                 <a href="#customization">Customization</a>
+                <a href="#process">Process</a>
                 <a href="#portfolio">Portfolio</a>
             </div>
             <div class="footer-col">
-                <h4>Legal</h4>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Refund Policy</a>
+                <h4>Contact</h4>
+                <a href="tel:+918136830182">+91 81368 30182</a>
+                <a href="mailto:salescustocorp@gmail.com">salescustocorp@gmail.com</a>
+                <a href="https://custocorp.in" rel="noopener">custocorp.in</a>
+                <span class="footer-address">Ground Floor 11/207 CUSTOCORP,<br>Poonoor Narikkuni Road, Unnikulam</span>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="container footer-bottom">
             <p>&copy; <span id="year"></span> CustoCorp. All rights reserved.</p>
+            <p class="gst">GSTIN 32AAWFC6374R1ZH</p>
         </div>
     </footer>
+
+    <a href="https://wa.me/918136830182" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg class="ico" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-13.4 7.8L3 21l1.3-4.4A9 9 0 1121 12z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8a3.5 3.5 0 01-1.8-1.8l.8-1-1-2z"/></svg>
+    </a>
 
     <script src="script.js"></script>
 </body>
