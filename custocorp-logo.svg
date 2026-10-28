@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="CustoCorp logo mark">
+  <defs>
+    <linearGradient id="cg" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#f1f1f3"/>
+      <stop offset="0.55" stop-color="#b4b4ba"/>
+      <stop offset="1" stop-color="#6f6f76"/>
+    </linearGradient>
+    <linearGradient id="yg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2b824"/>
+      <stop offset="1" stop-color="#ffd84d"/>
+    </linearGradient>
+  </defs>
+  <!-- C -->
+  <path d="M210 82 A92 92 0 1 0 87 216" fill="none" stroke="url(#cg)" stroke-width="62"/>
+  <!-- crescent -->
+  <path d="M96 268 C140 300 214 292 244 232 C206 250 150 262 96 268 Z" fill="url(#yg)"/>
+  <!-- swoosh shadow -->
+  <path d="M34 232 C96 282 196 244 252 118" fill="none" stroke="#d98a0b" stroke-width="12" stroke-linecap="round" transform="translate(0,6)"/>
+  <!-- swoosh -->
+  <path d="M30 222 C92 274 192 236 246 112" fill="none" stroke="url(#yg)" stroke-width="22" stroke-linecap="round"/>
+  <!-- arrow head -->
+  <path d="M276 64 L214 84 L248 120 Z" fill="url(#yg)"/>
+</svg>
