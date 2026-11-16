@@ -1,0 +1,2853 @@
+[
+  {
+    "id": "prod-dm201",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 201)",
+    "code": "DM 201",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 1: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm202",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 202)",
+    "code": "DM 202",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 2: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm203",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 203)",
+    "code": "DM 203",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 3: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm204",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 204)",
+    "code": "DM 204",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 4: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm205",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 205)",
+    "code": "DM 205",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 5: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm206",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 206)",
+    "code": "DM 206",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 6: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm207",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 207)",
+    "code": "DM 207",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 7: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm208",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 208)",
+    "code": "DM 208",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 8: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm209",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 209)",
+    "code": "DM 209",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 9: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm210",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 210)",
+    "code": "DM 210",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 10: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm211",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 211)",
+    "code": "DM 211",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 11: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm212",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 212)",
+    "code": "DM 212",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 12: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm213",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 213)",
+    "code": "DM 213",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 13: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm214",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 214)",
+    "code": "DM 214",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 14: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm215",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 215)",
+    "code": "DM 215",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 15: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm216",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 216)",
+    "code": "DM 216",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 16: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm217",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 217)",
+    "code": "DM 217",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 17: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm218",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 218)",
+    "code": "DM 218",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 18: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm219",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 219)",
+    "code": "DM 219",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 19: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm220",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 220)",
+    "code": "DM 220",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 20: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm221",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 221)",
+    "code": "DM 221",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 21: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm222",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 222)",
+    "code": "DM 222",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 22: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm223",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 223)",
+    "code": "DM 223",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 23: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm224",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 224)",
+    "code": "DM 224",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 24: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm225",
+    "name": "CUSTOCORP Executive 2-in-1 Combo Set (DM 225)",
+    "code": "DM 225",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Laser Engraved & UV Screen Print",
+    "description": "Catalogue Page 25: Executive 2-in-1 Onboarding Set featuring A5 hardbound vegan leather journal and precision metal rollerball pen in slide presentation box.",
+    "specs": [
+      "A5 Hardbound Journal",
+      "Metal Rollerball Pen",
+      "Slide Drawer Gift Box",
+      "Custom Logo Branding"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm301",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 301)",
+    "code": "DM 301",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 1: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm302",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 302)",
+    "code": "DM 302",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 2: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm303",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 303)",
+    "code": "DM 303",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 3: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm304",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 304)",
+    "code": "DM 304",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 4: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm305",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 305)",
+    "code": "DM 305",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 5: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm306",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 306)",
+    "code": "DM 306",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 6: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm307",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 307)",
+    "code": "DM 307",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 7: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm308",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 308)",
+    "code": "DM 308",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 8: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm309",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 309)",
+    "code": "DM 309",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 9: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm310",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 310)",
+    "code": "DM 310",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 10: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm311",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 311)",
+    "code": "DM 311",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 11: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm312",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 312)",
+    "code": "DM 312",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 12: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm313",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 313)",
+    "code": "DM 313",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 13: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm314",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 314)",
+    "code": "DM 314",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 14: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm315",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 315)",
+    "code": "DM 315",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 15: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm316",
+    "name": "CUSTOCORP Executive 3-in-1 Suite (DM 316)",
+    "code": "DM 316",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Gold Foil & Laser Etching",
+    "description": "Catalogue Page 16: Premium 3-in-1 Corporate Trio with hardbound notebook, heavyweight metal twist pen, and matching chrome keychain in luxury foam-lined box.",
+    "specs": [
+      "Hardbound Notebook",
+      "Chrome Metal Pen",
+      "Matching Keychain",
+      "Luxury Foam Casing"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm401",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 401)",
+    "code": "DM 401",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 1: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm402",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 402)",
+    "code": "DM 402",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 2: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm403",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 403)",
+    "code": "DM 403",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 3: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm404",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 404)",
+    "code": "DM 404",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 4: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm405",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 405)",
+    "code": "DM 405",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 5: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm406",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 406)",
+    "code": "DM 406",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 6: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm407",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 407)",
+    "code": "DM 407",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 7: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm408",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 408)",
+    "code": "DM 408",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 8: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm409",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 409)",
+    "code": "DM 409",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 9: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm410",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 410)",
+    "code": "DM 410",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 10: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm411",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 411)",
+    "code": "DM 411",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 11: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm412",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 412)",
+    "code": "DM 412",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 12: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm413",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 413)",
+    "code": "DM 413",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-7.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 13: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm414",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 414)",
+    "code": "DM 414",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-8.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 14: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm415",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 415)",
+    "code": "DM 415",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-1.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 15: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm416",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 416)",
+    "code": "DM 416",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-2.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 16: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm417",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 417)",
+    "code": "DM 417",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-3.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 17: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm418",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 418)",
+    "code": "DM 418",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-gift-sets-4.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 18: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm419",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 419)",
+    "code": "DM 419",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-gift-sets-5.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 19: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm420",
+    "name": "CUSTOCORP Deluxe 4-in-1 Flagship Set (DM 420)",
+    "code": "DM 420",
+    "category": "gift-sets",
+    "categoryName": "Executive Gift Sets",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-gift-sets-6.jpg",
+    "branding": "Metallic Print & Debossing",
+    "description": "Catalogue Page 20: Flagship 4-in-1 Executive Suite: A5 organizer diary, metal pen, metal card case, and chrome keychain in rigid magnetic presentation box.",
+    "specs": [
+      "A5 Organizer Diary",
+      "Metal Pen",
+      "Card Holder",
+      "Chrome Keychain",
+      "Magnetic Rigid Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm901",
+    "name": "Smart LED Temperature Display Flask (500ml) - Code DM 901",
+    "code": "DM 901",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-1.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 1: Smart LED Temperature Display Flask (500ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Touch LED Cap Readout",
+      "SUS 304 Double Wall Vacuum",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm902",
+    "name": "Natural Organic Bamboo Insulated Flask (450ml) - Code DM 902",
+    "code": "DM 902",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-flasks-2.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 2: Natural Organic Bamboo Insulated Flask (450ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Natural Bamboo Shell",
+      "Tea Infuser Strainer Included",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm903",
+    "name": "Executive Silk Matte Powder Sipper (510ml) - Code DM 903",
+    "code": "DM 903",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-flasks-3.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 3: Executive Silk Matte Powder Sipper (510ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Leak-Proof Flip Lid",
+      "Ergonomic Grip Coating",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm904",
+    "name": "Dual Insulated Tumbler Companion Set - Code DM 904",
+    "code": "DM 904",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-flasks-4.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 4: Dual Insulated Tumbler Companion Set. High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "2 Companion Drinking Cups",
+      "500ml Vacuum Thermal Bottle",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm905",
+    "name": "Stainless Steel Thermal Travel Flask (750ml) - Code DM 905",
+    "code": "DM 905",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-5.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 5: Stainless Steel Thermal Travel Flask (750ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Heavy Duty Insulation",
+      "Car Cup Holder Fit",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm906",
+    "name": "Smart LED Temperature Display Flask (500ml) - Code DM 906",
+    "code": "DM 906",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-flasks-6.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 6: Smart LED Temperature Display Flask (500ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Touch LED Cap Readout",
+      "SUS 304 Double Wall Vacuum",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm907",
+    "name": "Natural Organic Bamboo Insulated Flask (450ml) - Code DM 907",
+    "code": "DM 907",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-flasks-7.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 7: Natural Organic Bamboo Insulated Flask (450ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Natural Bamboo Shell",
+      "Tea Infuser Strainer Included",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm908",
+    "name": "Executive Silk Matte Powder Sipper (510ml) - Code DM 908",
+    "code": "DM 908",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-flasks-8.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 8: Executive Silk Matte Powder Sipper (510ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Leak-Proof Flip Lid",
+      "Ergonomic Grip Coating",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm909",
+    "name": "Dual Insulated Tumbler Companion Set - Code DM 909",
+    "code": "DM 909",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-1.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 9: Dual Insulated Tumbler Companion Set. High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "2 Companion Drinking Cups",
+      "500ml Vacuum Thermal Bottle",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm910",
+    "name": "Stainless Steel Thermal Travel Flask (750ml) - Code DM 910",
+    "code": "DM 910",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-flasks-2.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 10: Stainless Steel Thermal Travel Flask (750ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Heavy Duty Insulation",
+      "Car Cup Holder Fit",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm911",
+    "name": "Smart LED Temperature Display Flask (500ml) - Code DM 911",
+    "code": "DM 911",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-flasks-3.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 11: Smart LED Temperature Display Flask (500ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Touch LED Cap Readout",
+      "SUS 304 Double Wall Vacuum",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm912",
+    "name": "Natural Organic Bamboo Insulated Flask (450ml) - Code DM 912",
+    "code": "DM 912",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-flasks-4.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 12: Natural Organic Bamboo Insulated Flask (450ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Natural Bamboo Shell",
+      "Tea Infuser Strainer Included",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm913",
+    "name": "Executive Silk Matte Powder Sipper (510ml) - Code DM 913",
+    "code": "DM 913",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-5.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 13: Executive Silk Matte Powder Sipper (510ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Leak-Proof Flip Lid",
+      "Ergonomic Grip Coating",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm914",
+    "name": "Dual Insulated Tumbler Companion Set - Code DM 914",
+    "code": "DM 914",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-flasks-6.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 14: Dual Insulated Tumbler Companion Set. High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "2 Companion Drinking Cups",
+      "500ml Vacuum Thermal Bottle",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm915",
+    "name": "Stainless Steel Thermal Travel Flask (750ml) - Code DM 915",
+    "code": "DM 915",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-flasks-7.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 15: Stainless Steel Thermal Travel Flask (750ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Heavy Duty Insulation",
+      "Car Cup Holder Fit",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm916",
+    "name": "Smart LED Temperature Display Flask (500ml) - Code DM 916",
+    "code": "DM 916",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-flasks-8.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 16: Smart LED Temperature Display Flask (500ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Touch LED Cap Readout",
+      "SUS 304 Double Wall Vacuum",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm917",
+    "name": "Natural Organic Bamboo Insulated Flask (450ml) - Code DM 917",
+    "code": "DM 917",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-1.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 17: Natural Organic Bamboo Insulated Flask (450ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Natural Bamboo Shell",
+      "Tea Infuser Strainer Included",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm918",
+    "name": "Executive Silk Matte Powder Sipper (510ml) - Code DM 918",
+    "code": "DM 918",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-flasks-2.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 18: Executive Silk Matte Powder Sipper (510ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Leak-Proof Flip Lid",
+      "Ergonomic Grip Coating",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm919",
+    "name": "Dual Insulated Tumbler Companion Set - Code DM 919",
+    "code": "DM 919",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-flasks-3.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 19: Dual Insulated Tumbler Companion Set. High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "2 Companion Drinking Cups",
+      "500ml Vacuum Thermal Bottle",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm920",
+    "name": "Stainless Steel Thermal Travel Flask (750ml) - Code DM 920",
+    "code": "DM 920",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-flasks-4.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 20: Stainless Steel Thermal Travel Flask (750ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Heavy Duty Insulation",
+      "Car Cup Holder Fit",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm921",
+    "name": "Smart LED Temperature Display Flask (500ml) - Code DM 921",
+    "code": "DM 921",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-5.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 21: Smart LED Temperature Display Flask (500ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Touch LED Cap Readout",
+      "SUS 304 Double Wall Vacuum",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm922",
+    "name": "Natural Organic Bamboo Insulated Flask (450ml) - Code DM 922",
+    "code": "DM 922",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-flasks-6.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 22: Natural Organic Bamboo Insulated Flask (450ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Natural Bamboo Shell",
+      "Tea Infuser Strainer Included",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm923",
+    "name": "Executive Silk Matte Powder Sipper (510ml) - Code DM 923",
+    "code": "DM 923",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-flasks-7.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 23: Executive Silk Matte Powder Sipper (510ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Leak-Proof Flip Lid",
+      "Ergonomic Grip Coating",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm924",
+    "name": "Dual Insulated Tumbler Companion Set - Code DM 924",
+    "code": "DM 924",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 5,
+    "image": "assets/products/cat-flasks-8.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 24: Dual Insulated Tumbler Companion Set. High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "2 Companion Drinking Cups",
+      "500ml Vacuum Thermal Bottle",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-dm925",
+    "name": "Stainless Steel Thermal Travel Flask (750ml) - Code DM 925",
+    "code": "DM 925",
+    "category": "flasks-drinkware",
+    "categoryName": "Flasks & Drinkware",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-flasks-1.jpg",
+    "branding": "Laser Engraved Logo",
+    "description": "Catalogue Page 25: Stainless Steel Thermal Travel Flask (750ml). High-grade food safety certification with 24-hour hot & cold temperature retention.",
+    "specs": [
+      "Heavy Duty Insulation",
+      "Car Cup Holder Fit",
+      "BPA Free Food Grade",
+      "Custom Laser Engraved"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt101",
+    "name": "Smart Digital Clock & Wireless Desk Dock",
+    "code": "TT 101",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-tabletop-1.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 1: Multi-functional desktop centerpiece with digital alarm, calendar, room thermometer, and Qi-certified wireless charging pad.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt102",
+    "name": "Executive Hardwood Pen Cradle with Card Holder",
+    "code": "TT 102",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-tabletop-2.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 2: Natural polished wood pen stand with brass trim accents, smartphone viewing dock, and business card slots.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt103",
+    "name": "Perpetual Wooden Block Calendar & Organizer",
+    "code": "TT 103",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-tabletop-3.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 3: Eco-friendly wooden perpetual block calendar with dual pen slots and sticky note dispenser.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt104",
+    "name": "Executive Vegan Leather Desktop Organizer Tray",
+    "code": "TT 104",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-tabletop-4.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 4: Multi-compartment desk valet organizer for stationery, paperclips, keys, and mobile devices.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt105",
+    "name": "Foldable LED Desk Lamp with Wireless Charging Dock",
+    "code": "TT 105",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-tabletop-5.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 5: Touch brightness control lamp with flexible arm and fast wireless induction base.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt106",
+    "name": "Minimalist Matte Aluminum Desktop Pen Stand",
+    "code": "TT 106",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-tabletop-6.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 6: Weighted solid aluminum pen stand with non-slip silicone base and 360-degree rotation.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt107",
+    "name": "Dual Watch & Smartphone Executive Docking Station",
+    "code": "TT 107",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-tabletop-7.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 7: Smart charging dock for smartwatch and phone with dedicated cable routing channel.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt108",
+    "name": "Crystal & Metal Business Card Holder with Pen Mount",
+    "code": "TT 108",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-tabletop-8.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 8: Polished optical crystal block with heavy chrome metal pen mount and engraved plate.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt109",
+    "name": "Smart Temperature & Humidity Desktop Meter Dock",
+    "code": "TT 109",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-tabletop-1.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 9: Minimalist digital desktop monitor tracking office ambient climate and time.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt110",
+    "name": "Textured Leatherette Memo Pad & Pen Holder",
+    "code": "TT 110",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.7,
+    "image": "assets/products/cat-tabletop-2.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 10: Refillable memo cube holder in stitched black leatherette with chrome accents.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt111",
+    "name": "Executive 4-Piece Leather Table Top Desk Set",
+    "code": "TT 111",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.8,
+    "image": "assets/products/cat-tabletop-3.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 11: Matching desk blotter mat, pen stand, memo pad tray, and paper tray in executive finish.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-tt112",
+    "name": "Magnetic Paperclip Dispenser & Pen Sculptor",
+    "code": "TT 112",
+    "category": "table-top",
+    "categoryName": "Table Top Accessories",
+    "moq": 25,
+    "rating": 4.9,
+    "image": "assets/products/cat-tabletop-4.jpg",
+    "branding": "Laser Engraved / UV Print",
+    "description": "Catalogue Page 12: Sculptural metallic desktop accessory with internal neodymium magnet.",
+    "specs": [
+      "Executive Desktop Grade",
+      "Precision Logo Branding",
+      "Gift Box Packaging",
+      "High Retention"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-1",
+    "name": "Polo Milky Promotional Ball Pen",
+    "code": "P-1.1",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 100,
+    "rating": 4.7,
+    "image": "assets/products/cat-pens-1.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 1 (Aurora Series): Solid milky white barrel with vibrant contrast clip. Smooth German ink refill, ideal for high-volume trade promotions.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-2",
+    "name": "Polo Tinted Translucent Pen",
+    "code": "P-1.2",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 100,
+    "rating": 4.8,
+    "image": "assets/products/cat-pens-2.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 2 (Aurora Series): Translucent tinted barrel with comfortable textured grip and chrome plunger.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-3",
+    "name": "Polo Sticker Dedicated Logo Pen",
+    "code": "P-1.3",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 100,
+    "rating": 4.9,
+    "image": "assets/products/cat-pens-3.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 3 (Aurora Series): Engineered with a dedicated rectangular sticker branding area to highlight full-color company logos with vibrant clarity.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-4",
+    "name": "Hexa Ergonomic Hexagonal Grip Pen",
+    "code": "P-2.1",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 100,
+    "rating": 4.7,
+    "image": "assets/products/cat-pens-4.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 4 (Aurora Series): Hexagonal barrel design prevents rolling and ensures effortless writing balance.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-5",
+    "name": "Grace Milky Executive Ballpoint",
+    "code": "P-2.2",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 100,
+    "rating": 4.8,
+    "image": "assets/products/cat-pens-5.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 5 (Grace Series): Affordable yet weighted premium feel with smooth glide tip for corporate signing.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-6",
+    "name": "Grace Tinted Translucent Clip Pen",
+    "code": "P-2.3",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 100,
+    "rating": 4.9,
+    "image": "assets/products/cat-pens-6.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 6 (Grace Series): Sleek translucent clip with rich vibrant accents and high ink mileage.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-7",
+    "name": "Standard Chartered Ultra Matte Pen",
+    "code": "PEN 294",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.7,
+    "image": "assets/products/cat-pens-7.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 7 (Executive Matte): Ultra matte rubberised finish pen with smooth retractable jotter refill and chrome trim.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-8",
+    "name": "TechRadar Silk Matte Metal Pen",
+    "code": "PEN 296",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.8,
+    "image": "assets/products/cat-pens-8.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 8 (Metal Series): Heavyweight metal body with dual-tone ring accent, German ink refill, and mirror laser finish.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-9",
+    "name": "Volvo Gold Executive Metal Pen",
+    "code": "PEN 299",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.9,
+    "image": "assets/products/cat-pens-1.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 9 (Gold Series): Champagne gold clips, twist mechanism, soft velvet touch executive barrel.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-10",
+    "name": "Gunmetal Classic Rollerball Pen",
+    "code": "PEN 301",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.7,
+    "image": "assets/products/cat-pens-2.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 10 (Executive Metal): Weighted zinc alloy casing with carbon fiber barrel band and German roller refill.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-11",
+    "name": "Stylus 2-in-1 Touchscreen Metal Pen",
+    "code": "PEN 302",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.8,
+    "image": "assets/products/cat-pens-3.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 11 (Tech Series): Integrated capacitive stylus tip for tablets and smartphones with twist ballpoint.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-12",
+    "name": "Bamboo Eco Retractable Ball Pen",
+    "code": "PEN 305",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.9,
+    "image": "assets/products/cat-pens-4.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 12 (Eco Series): Biodegradable natural bamboo barrel with recycled wheat straw fittings.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-13",
+    "name": "Slim Matte Steel Executive Roller",
+    "code": "PEN 308",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.7,
+    "image": "assets/products/cat-pens-5.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 13 (Steel Series): Sleek pocket-profile stainless steel casing with spring clip.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-14",
+    "name": "Soft-Touch Pastel Promotional Pen",
+    "code": "PEN 310",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.8,
+    "image": "assets/products/cat-pens-6.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 14 (Aurora Series): Velvety pastel rubberized barrel with high visibility logo print area.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-pen-15",
+    "name": "Executive Twist Ballpoint with Presentation Case",
+    "code": "PEN 315",
+    "category": "custom-pens",
+    "categoryName": "Custom Pens",
+    "moq": 50,
+    "rating": 4.9,
+    "image": "assets/products/cat-pens-7.jpg",
+    "branding": "Laser Engraved / Screen Print",
+    "description": "Official Catalogue Page 15 (VIP Series): Deep gloss lacquer finish twist pen packed in individual velvet gift pouch.",
+    "specs": [
+      "German Ink Refill",
+      "Smooth Writing Glide",
+      "Custom Logo Imprint",
+      "Bulk Low MOQ"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-1",
+    "name": "Executive 2026–27 Hardbound Planner (D1058)",
+    "code": "D 1058",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-diaries-1.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 1: B5 Size corporate planner in Thermal Wooden PU Leather texture with magnetic side flap and 80 GSM natural shade paper.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-2",
+    "name": "Premium Vegan Leather Journal (D1060)",
+    "code": "D 1060",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-diaries-2.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 2: B5 Size Thermal PU Leather diary with magnetic side lock, inner document pocket, and monthly index.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-3",
+    "name": "Classic Executive Day-Planner (D1059)",
+    "code": "D 1059",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-diaries-3.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 3: B5 Size Thermal PU Leather with magnetic side lock, bookmark ribbon, and embossed logo area.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-4",
+    "name": "Executive Pocket-Slot Diary (D1061)",
+    "code": "D 1061",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-diaries-4.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 4: B5 Size Thermal PU Leather with magnetic closure and integrated pen holder loop.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-5",
+    "name": "Classic A5 Executive Notebook (D1001)",
+    "code": "D 1001",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-diaries-1.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 5: A5 Size Thermal PU Leather notebook with 192 ruled pages, 80 GSM acid-free paper.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-6",
+    "name": "B5 Size Corporate Hardbound Journal (D1003)",
+    "code": "D 1003",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 5,
+    "image": "assets/products/cat-diaries-2.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 6: Thermal PU Leather in multiple executive shades with gold edge foil option.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-7",
+    "name": "Executive Dual-Tone Folio Diary (D1010)",
+    "code": "D 1010",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-diaries-3.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 7: B5 Size Thermal PU Leather with contrasting perimeter stitch and card pockets.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-d-8",
+    "name": "Silk Touch Non-Thermal Executive Planner (D1053)",
+    "code": "D 1053",
+    "category": "diaries-notebooks",
+    "categoryName": "Diaries & Notebooks",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-diaries-4.png",
+    "branding": "Blind Deboss / Gold Foil Stamping",
+    "description": "Official Catalogue Page 8: B5 Size Non-Thermal Silk PU Leather with magnetic side lock and pen loop.",
+    "specs": [
+      "80 GSM Natural Paper",
+      "Magnetic Lock / Ribbon",
+      "Monthly Planner Section",
+      "Debossed Company Logo"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-or-1",
+    "name": "Chief Mag Wireless 10000mAh Powerbank Organizer",
+    "code": "OR 1001",
+    "category": "organizers-portfolios",
+    "categoryName": "Premium Organizers",
+    "moq": 20,
+    "rating": 4.8,
+    "image": "assets/products/cat-organizers-1.png",
+    "branding": "Laser Engraved Plate / LED Glow Logo",
+    "description": "Official Catalogue Page 1: 10000mAh guaranteed powerbank, foldable reading lamp, Mag wireless charger, 16GB integrated pendrive, and ruled notebook.",
+    "specs": [
+      "10000mAh Powerbank",
+      "16GB Pendrive / Cables",
+      "Business Card Slots",
+      "Presentation Gift Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-or-2",
+    "name": "Executive Smart Phone Dock Folio with 10000mAh Battery",
+    "code": "OR 1002",
+    "category": "organizers-portfolios",
+    "categoryName": "Premium Organizers",
+    "moq": 20,
+    "rating": 4.9,
+    "image": "assets/products/cat-organizers-2.png",
+    "branding": "Laser Engraved Plate / LED Glow Logo",
+    "description": "Official Catalogue Page 2: Smart phone viewing dock, 10000mAh powerbank, 16GB pendrive, 3-in-1 connector cable, business card matrix.",
+    "specs": [
+      "10000mAh Powerbank",
+      "16GB Pendrive / Cables",
+      "Business Card Slots",
+      "Presentation Gift Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-or-3",
+    "name": "Full Chain Closure Powerbank Executive Organizer",
+    "code": "OR 1003",
+    "category": "organizers-portfolios",
+    "categoryName": "Premium Organizers",
+    "moq": 20,
+    "rating": 5,
+    "image": "assets/products/cat-organizers-3.png",
+    "branding": "Laser Engraved Plate / LED Glow Logo",
+    "description": "Official Catalogue Page 3: Full perimeter zipper chain closure, 10000mAh battery, LED display logo badge, wireless phone charging, 3-in-1 connector.",
+    "specs": [
+      "10000mAh Powerbank",
+      "16GB Pendrive / Cables",
+      "Business Card Slots",
+      "Presentation Gift Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-or-4",
+    "name": "Chief Magnetic Flap Multi-Separator Portfolio",
+    "code": "OR 1004",
+    "category": "organizers-portfolios",
+    "categoryName": "Premium Organizers",
+    "moq": 20,
+    "rating": 4.8,
+    "image": "assets/products/cat-organizers-4.png",
+    "branding": "Laser Engraved Plate / LED Glow Logo",
+    "description": "Official Catalogue Page 4: Magnetic flap closure, multi-color page separators, document folder, 10000mAh power bank, pen holder.",
+    "specs": [
+      "10000mAh Powerbank",
+      "16GB Pendrive / Cables",
+      "Business Card Slots",
+      "Presentation Gift Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-or-5",
+    "name": "Classic A4 Leatherette Conference Folio",
+    "code": "OR 1005",
+    "category": "organizers-portfolios",
+    "categoryName": "Premium Organizers",
+    "moq": 20,
+    "rating": 4.9,
+    "image": "assets/products/cat-organizers-1.png",
+    "branding": "Laser Engraved Plate / LED Glow Logo",
+    "description": "Official Catalogue Page 5: A4 legal refill pad, zipper document pocket, business card holders, pen loop.",
+    "specs": [
+      "10000mAh Powerbank",
+      "16GB Pendrive / Cables",
+      "Business Card Slots",
+      "Presentation Gift Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-or-6",
+    "name": "Compact Executive B5 Travel Portfolio",
+    "code": "OR 1006",
+    "category": "organizers-portfolios",
+    "categoryName": "Premium Organizers",
+    "moq": 20,
+    "rating": 5,
+    "image": "assets/products/cat-organizers-2.png",
+    "branding": "Laser Engraved Plate / LED Glow Logo",
+    "description": "Official Catalogue Page 6: Passport slot, boarding pass pocket, card slots, refillable B5 ruled memo pad.",
+    "specs": [
+      "10000mAh Powerbank",
+      "16GB Pendrive / Cables",
+      "Business Card Slots",
+      "Presentation Gift Box"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-1",
+    "name": "Mega Travel Tumbler with Handle (1200ml)",
+    "code": "M 101",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-mugs-2.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 1: 1200ml massive capacity thermal tumbler with ergonomic handle, leak-proof straw lid, and car cup holder fit.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-2",
+    "name": "Executive CafÃ© Travel Mug (900ml)",
+    "code": "M 102",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-mugs-3.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 2: 900ml capacity stainless steel travel mug with insulated comfort handle and splash-proof lid.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-3",
+    "name": "Smart LED Temperature Display Coffee Mug (500ml)",
+    "code": "M 103",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-mugs-4.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 3: 500ml capacity, touch LED temperature display cap, SUS 304 double-wall vacuum insulated.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-4",
+    "name": "Double Wall Vacuum Thermal Mug (500ml)",
+    "code": "M 104",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-mugs-2.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 4: SUS 304 food-grade stainless steel with push slider open/close lid, keeps hot for 8 hours.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-5",
+    "name": "Eco Natural Bamboo Thermal Mug (450ml)",
+    "code": "M 105",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-mugs-3.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 5: Made up of natural bamboo exterior casing with SUS 304 stainless steel interior and slide lock lid.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-6",
+    "name": "Compact Desktop Coffee Sipper (300ml)",
+    "code": "M 106",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-mugs-4.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 6: 300ml leak-proof desktop mug with slide lid, SUS 304 stainless body in matte colors.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-7",
+    "name": "Classic Stainless Office Desk Mug (500ml)",
+    "code": "M 107",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-mugs-2.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 7: 500ml double-wall stainless steel body with insulated grip handle and silicone base.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-m-8",
+    "name": "Silk Matte Coffee Tumbler (510ml)",
+    "code": "M 108",
+    "category": "mugs-collection",
+    "categoryName": "Corporate Mugs",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-mugs-3.png",
+    "branding": "Laser Etch / Screen Print",
+    "description": "Official Catalogue Page 8: 510ml ergonomic vacuum coffee tumbler with flip sip spout in textured matte finish.",
+    "specs": [
+      "SUS 304 Stainless Steel",
+      "Double-Wall Insulated",
+      "Leak-Proof Lid",
+      "Custom Logo Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-lux-1",
+    "name": "CUSTOCORP VIP Luxury Presentation Hamper (GS1053)",
+    "code": "GS 1053",
+    "category": "luxury-gifts",
+    "categoryName": "Luxury Gifts",
+    "moq": 15,
+    "rating": 5,
+    "image": "assets/products/cat-luxury-2.png",
+    "branding": "Gold Foil Deboss & Laser",
+    "description": "Official Catalogue Page 1: A5 Size Vegan Leather Notebook, Heavy Metal Pen, Premium Thermal Bottle, and Metal Keychain in gold stamped luxury box.",
+    "specs": [
+      "VIP Presentation Case",
+      "Certified High-End Finishes",
+      "Custom Foil Logo",
+      "Pan-India Executive Delivery"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-lux-2",
+    "name": "Executive Summit Welcome Suite (GS1047)",
+    "code": "GS 1047",
+    "category": "luxury-gifts",
+    "categoryName": "Luxury Gifts",
+    "moq": 15,
+    "rating": 5,
+    "image": "assets/products/cat-luxury-3.png",
+    "branding": "Gold Foil Deboss & Laser",
+    "description": "Official Catalogue Page 2: A5 Hardbound Notebook, Premium Ceramic/Stainless Mug, and Executive Metal Pen in custom presentation case.",
+    "specs": [
+      "VIP Presentation Case",
+      "Certified High-End Finishes",
+      "Custom Foil Logo",
+      "Pan-India Executive Delivery"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-lux-3",
+    "name": "CXO Leadership 5-Piece Gift Suite (GS1024A)",
+    "code": "GS 1024(A)",
+    "category": "luxury-gifts",
+    "categoryName": "Luxury Gifts",
+    "moq": 15,
+    "rating": 5,
+    "image": "assets/products/cat-luxury-4.png",
+    "branding": "Gold Foil Deboss & Laser",
+    "description": "Official Catalogue Page 3: Premium B5 Size Organizer, Bluetooth AirPod Set, Metal Keychain, Metal Pen, and Metal Card Holder in velvet-lined master box.",
+    "specs": [
+      "VIP Presentation Case",
+      "Certified High-End Finishes",
+      "Custom Foil Logo",
+      "Pan-India Executive Delivery"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-lux-4",
+    "name": "Executive Tech & Folio Master Set (GS1024B)",
+    "code": "GS 1024(B)",
+    "category": "luxury-gifts",
+    "categoryName": "Luxury Gifts",
+    "moq": 15,
+    "rating": 5,
+    "image": "assets/products/cat-luxury-2.png",
+    "branding": "Gold Foil Deboss & Laser",
+    "description": "Official Catalogue Page 4: B5 Zipper Organizer, Wireless Earbuds, Heavy Twist Roller Pen, Metal Keyring, and Executive Card Case.",
+    "specs": [
+      "VIP Presentation Case",
+      "Certified High-End Finishes",
+      "Custom Foil Logo",
+      "Pan-India Executive Delivery"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-lux-5",
+    "name": "Eco-Luxe Natural Cork 5-in-1 Hamper (GS1044)",
+    "code": "GS 1044",
+    "category": "luxury-gifts",
+    "categoryName": "Luxury Gifts",
+    "moq": 15,
+    "rating": 5,
+    "image": "assets/products/cat-luxury-3.png",
+    "branding": "Gold Foil Deboss & Laser",
+    "description": "Official Catalogue Page 5: A5 Natural Cork Notebook, Cork Card Holder, Cork Pen, Cork Mug, and Bamboo Thermal Bottle in eco presentation packaging.",
+    "specs": [
+      "VIP Presentation Case",
+      "Certified High-End Finishes",
+      "Custom Foil Logo",
+      "Pan-India Executive Delivery"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-lux-6",
+    "name": "Tech Elite Summit Onboarding Kit (GS1042)",
+    "code": "GS 1042",
+    "category": "luxury-gifts",
+    "categoryName": "Luxury Gifts",
+    "moq": 15,
+    "rating": 5,
+    "image": "assets/products/cat-luxury-4.png",
+    "branding": "Gold Foil Deboss & Laser",
+    "description": "Official Catalogue Page 6: Premium A5 Notebook, Premium Mobile Stand, Wireless Earbuds, Wireless Mouse, and 10000mAh Powerbank.",
+    "specs": [
+      "VIP Presentation Case",
+      "Certified High-End Finishes",
+      "Custom Foil Logo",
+      "Pan-India Executive Delivery"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-1",
+    "name": "Fast Wireless Qi Powerbank (10,000mAh)",
+    "code": "DM 1401",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-promo-1.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 1: Ultra-slim 10,000mAh polymer powerbank with Qi wireless induction pad and dual fast-charging USB outputs.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-2",
+    "name": "Executive 3-in-1 Fast Charging Nylon Cable Set",
+    "code": "DM 1402",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-promo-2.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 2: Braided nylon heavy-duty cable with Type-C, Lightning, and Micro-USB tips in silicone carry case.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-3",
+    "name": "Heavy Zinc Alloy & Stitched Leather Keychain",
+    "code": "DM 1403",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-promo-3.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 3: Brushed gunmetal alloy with top-grain stitched vegan leather strap in presentation gift box.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-4",
+    "name": "Mini Magnetic Wireless Powerbank (5,000mAh)",
+    "code": "DM 1404",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-promo-4.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 4: Snap-on magnetic wireless battery pack with LED battery percentage display.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-5",
+    "name": "Executive Metal Card Case with Spring Eject",
+    "code": "DM 1405",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-promo-5.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 5: RFID blocking aluminum cardholder with single-click card fan eject mechanism.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-6",
+    "name": "Portable Bluetooth 5.3 Conference Speaker",
+    "code": "DM 1406",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.9,
+    "image": "assets/products/cat-promo-6.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 6: Compact circular metal speaker with built-in microphone for hands-free boardroom calls.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-7",
+    "name": "Swivel Metal USB 3.0 Flash Drive (32GB / 64GB)",
+    "code": "DM 1407",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.7,
+    "image": "assets/products/cat-promo-7.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 7: High-speed USB 3.0 flash drive with 360-degree aluminum protective swivel cap.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  },
+  {
+    "id": "prod-promo-8",
+    "name": "Dual-Port Fast Car Charger with LED Ring",
+    "code": "DM 1408",
+    "category": "promotional-merchandise",
+    "categoryName": "Promotional Merchandise",
+    "moq": 30,
+    "rating": 4.8,
+    "image": "assets/products/cat-promo-8.jpg",
+    "branding": "UV Full Color / Laser Etching",
+    "description": "Official Catalogue Page 8: Dual USB-A and USB-C Power Delivery 30W aluminum car charger with ambient light ring.",
+    "specs": [
+      "CE & RoHS Certified",
+      "High Utility Swag",
+      "Custom Logo Imprint",
+      "Bulk Order Ready"
+    ],
+    "hamperEligible": true
+  }
+]

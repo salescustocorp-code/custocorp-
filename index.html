@@ -1,406 +1,2473 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CustoCorp | Corporate Gifting &amp; Employee Engagement Partner</title>
-    <meta name="description" content="CustoCorp creates premium customized corporate gifts, bulk orders and promotional merchandise for businesses, startups and corporate leaders. Based in Kerala, delivering across India.">
-    <meta name="theme-color" content="#0a0a0b">
-    <link rel="canonical" href="https://custocorp.in/">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-
-    <!-- Social sharing -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="CustoCorp | Corporate Gifting &amp; Employee Engagement Partner">
-    <meta property="og:description" content="Bulk orders, corporate gifts and promotional merchandise, customized with your brand.">
-    <meta property="og:url" content="https://custocorp.in/">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "CustoCorp",
-      "description": "Corporate gifting and employee engagement partner. Bulk orders, corporate gifts and promotional merchandise.",
-      "url": "https://custocorp.in/",
-      "email": "salescustocorp@gmail.com",
-      "telephone": "+918136830182",
-      "taxID": "32AAWFC6374R1ZH",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Ground Floor 11/207 CUSTOCORP, Poonoor Narikkuni Road",
-        "addressLocality": "Unnikulam",
-        "addressRegion": "Kerala",
-        "addressCountry": "IN"
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="theme-color" content="#F8F5EE" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>CUSTOCORP | Corporate Gifting & Employee Engagement Partner</title>
+  <meta name="description" content="Leading corporate gifting company specializing in customized welcome kits, executive hampers, promotional merchandise, and bespoke B2B gift sets." />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandGold: {
+              DEFAULT: '#EAA822',
+              hover: '#D79515',
+              light: '#FDF4E1',
+              dark: '#B37B09'
+            },
+            brandCharcoal: {
+              DEFAULT: '#1C1C1E',
+              soft: '#2C2C2E',
+              muted: '#48484A'
+            }
+          },
+          fontFamily: {
+            display: ['Outfit', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            serif: ['Playfair Display', 'serif']
+          }
+        }
       }
     }
-    </script>
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheets with Fluid Animations -->
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+<body class="text-neutral-800 antialiased selection:bg-amber-200 selection:text-neutral-900">
 
-    <!-- ============ NAVBAR ============ -->
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#home" class="logo" aria-label="CustoCorp home">
-                <img src="logo.svg" alt="" class="logo-mark" width="44" height="44">
-                <span class="logo-text">CUSTO<span>CORP</span></span>
-            </a>
-            <nav class="nav-links" aria-label="Main">
-                <a href="#about">About</a>
-                <a href="#products">Collections</a>
-                <a href="#customization">Customization</a>
-                <a href="#process">Process</a>
-                <a href="#portfolio">Our Work</a>
-                <a href="#contact" class="btn btn-outline">Get a Quote</a>
-            </nav>
-            <div class="mobile-menu-btn" role="button" tabindex="0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header>
+  <!-- Ambient Liquid Glass Backdrop with Animated Light Orbs -->
+  <div class="ambient-liquid-bg">
+    <div class="light-orb light-orb-1"></div>
+    <div class="light-orb light-orb-2"></div>
+    <div class="light-orb light-orb-3"></div>
+    <div class="mandala-watermark"></div>
+  </div>
 
-    <!-- ============ HERO ============ -->
-    <section class="hero" id="home">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <p class="eyebrow fade-up">Corporate Gifting &amp; Employee Engagement Partner</p>
-            <h1 class="fade-up delay-1">Gifts that carry your <em>brand</em> with distinction.</h1>
-            <p class="hero-lead fade-up delay-2">Personalized, high-quality bulk gifting for onboarding, festivals, milestones and client appreciation. Designed around your identity, delivered across India.</p>
-            <div class="hero-btns fade-up delay-3">
-                <a href="#contact" class="btn btn-primary">Request a Quote</a>
-                <a href="#products" class="btn btn-secondary">Explore Collections</a>
-            </div>
-        </div>
-        <a href="#about" class="scroll-cue" aria-label="Scroll to content"><span></span></a>
-    </section>
+  <!-- macOS Style Side Drawer Backdrop -->
+  <div id="drawer-backdrop" class="drawer-backdrop"></div>
 
-    <!-- ============ SERVICE STRIP ============ -->
-    <div class="marquee" aria-hidden="true">
-        <div class="marquee-track">
-            <span>Bulk Orders</span><i>◆</i><span>Corporate Gifts</span><i>◆</i><span>Promotional Merchandise</span><i>◆</i><span>Employee Engagement</span><i>◆</i><span>Custom Branding</span><i>◆</i>
-            <span>Bulk Orders</span><i>◆</i><span>Corporate Gifts</span><i>◆</i><span>Promotional Merchandise</span><i>◆</i><span>Employee Engagement</span><i>◆</i><span>Custom Branding</span><i>◆</i>
+  <!-- macOS Style Slide-out Navigation Drawer -->
+  <aside id="side-drawer" class="side-drawer p-6 flex flex-col justify-between overflow-y-auto">
+    <div>
+      <!-- Mac Window Dots & Collapse Button -->
+      <div class="flex items-center justify-between pb-5 border-b border-neutral-200/60">
+        <div class="mac-dots">
+          <div class="mac-dot mac-dot-red"></div>
+          <div class="mac-dot mac-dot-yellow"></div>
+          <div class="mac-dot mac-dot-green"></div>
         </div>
+        <button id="drawer-close-btn" class="flex items-center gap-1.5 text-xs font-bold text-neutral-600 hover:text-neutral-950 px-3 py-1.5 rounded-full bg-neutral-100 hover:bg-neutral-200 transition-all shadow-sm">
+          <i data-lucide="chevron-left" class="w-3.5 h-3.5"></i>
+          <span>Collapse</span>
+        </button>
+      </div>
+
+      <!-- Official Logo Card in Drawer -->
+      <div class="my-5 p-4 rounded-2xl bg-white/80 border border-white shadow-md flex items-center gap-4">
+        <img 
+          src="assets/logo.jpg" 
+          alt="CUSTOCORP" 
+          class="w-14 h-14 object-contain rounded-xl bg-white shadow-sm border border-neutral-100 p-1"
+        />
+        <div class="overflow-hidden">
+          <h4 class="font-display font-black text-base text-neutral-900 leading-tight">CUSTOCORP</h4>
+          <p class="text-[11px] text-amber-600 font-semibold truncate">Corporate Gifting Solutions</p>
+          <div class="flex items-center gap-1.5 mt-1 text-[10px] text-emerald-600 font-bold">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Corporate Sales Desk Online</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Navigation Links -->
+      <div class="space-y-1.5 text-sm font-semibold text-neutral-700">
+        <a href="#home" onclick="window.custoApp.closeDrawer()" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl bg-amber-400 text-neutral-900 font-bold shadow-sm transition-all hover:translate-x-1">
+          <i data-lucide="home" class="w-4 h-4"></i>
+          <span>Home</span>
+        </a>
+        <a href="#shop-section" onclick="window.custoApp.closeDrawer()" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl hover:bg-white/80 transition-all hover:translate-x-1">
+          <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+          <span>Catalog & Shop</span>
+        </a>
+        <a href="#hamper-studio-section" onclick="window.custoApp.closeDrawer()" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl hover:bg-white/80 transition-all text-amber-900 hover:translate-x-1">
+          <div class="flex items-center gap-3">
+            <i data-lucide="package-plus" class="w-4 h-4 text-amber-600"></i>
+            <span>Select Your Goodies</span>
+          </div>
+          <span class="bg-amber-200 text-amber-900 text-[10px] uppercase font-bold px-2 py-0.5 rounded-full shadow-xs">Studio</span>
+        </a>
+        <a href="#how-it-works" onclick="window.custoApp.closeDrawer()" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl hover:bg-white/80 transition-all hover:translate-x-1">
+          <i data-lucide="compass" class="w-4 h-4"></i>
+          <span>How It Works</span>
+        </a>
+        <a href="#collections-section" onclick="window.custoApp.closeDrawer()" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl hover:bg-white/80 transition-all hover:translate-x-1">
+          <i data-lucide="grid" class="w-4 h-4"></i>
+          <span>All Collections</span>
+        </a>
+        <a href="javascript:void(0)" onclick="window.custoApp.openCatalogModal(); window.custoApp.closeDrawer();" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl hover:bg-white/80 transition-all hover:translate-x-1">
+          <i data-lucide="file-text" class="w-4 h-4"></i>
+          <span>Download PDF Catalogue</span>
+        </a>
+        <a href="#compliance-section" onclick="window.custoApp.closeDrawer()" class="flex items-center gap-3 px-3.5 py-2.5 rounded-xl hover:bg-white/80 transition-all hover:translate-x-1">
+          <i data-lucide="shield-check" class="w-4 h-4"></i>
+          <span>B2B Trust & GSTIN</span>
+        </a>
+      </div>
+
+      <!-- Quick Category Shortcuts -->
+      <div class="mt-6 pt-5 border-t border-neutral-200/60">
+        <h5 class="text-[11px] font-bold uppercase tracking-wider text-neutral-400 mb-2.5 px-3">9 Official Catalogues</h5>
+        <div class="space-y-1 text-xs text-neutral-600">
+          <button onclick="window.custoApp.filterByCategory('gift-sets'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Executive Gift Sets</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 8</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('flasks-drinkware'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Flasks & Thermal Drinkware</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 5</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('table-top'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Office Table Top Accessories</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 7</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('custom-pens'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>CUSTOCORP Custom Pens</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 9</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('diaries-notebooks'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Diaries & Notebooks</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 2</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('organizers-portfolios'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Premium Organizers</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 4</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('mugs-collection'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Corporate Mugs Collection</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 3</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('luxury-gifts'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Luxury Gifts & VIP Hampers</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 1</span>
+          </button>
+          <button onclick="window.custoApp.filterByCategory('promotional-merchandise'); window.custoApp.closeDrawer();" class="w-full text-left px-3.5 py-2 rounded-lg hover:bg-white/80 hover:text-amber-700 font-medium transition-all flex items-center justify-between">
+            <span>Promotional Merchandise</span>
+            <span class="text-[10px] text-neutral-400 font-bold">Cat 6</span>
+          </button>
+        </div>
+      </div>
     </div>
 
-    <!-- ============ ABOUT ============ -->
-    <section class="about section-padding" id="about">
-        <div class="container about-container">
-            <div class="about-text slide-in-left">
-                <p class="eyebrow">About CustoCorp</p>
-                <h2 class="section-title">The Art of Corporate Gifting</h2>
-                <div class="title-underline"></div>
-                <p>CustoCorp is your partner in creating customized corporate gifts that speak for your brand. We curate high-quality, meaningful gifts for businesses, startups and corporate leaders, and support teams with thoughtful employee engagement programs.</p>
-                <p>Our commitment to creativity and client satisfaction ensures every package we deliver leaves a lasting impression on your employees and clients.</p>
-                <ul class="about-features">
-                    <li><i class="icon-check">✓</i> Uncompromising quality</li>
-                    <li><i class="icon-check">✓</i> Innovative creativity</li>
-                    <li><i class="icon-check">✓</i> 100% client satisfaction</li>
-                </ul>
-            </div>
-            <div class="about-image slide-in-right">
-                <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Premium corporate gift box">
-                <div class="experience-badge">
-                    <span class="number">4+</span>
-                    <span class="text">Years of Excellence</span>
-                </div>
-            </div>
+    <!-- Drawer Footer -->
+    <div class="pt-5 mt-6 border-t border-neutral-200/60">
+      <div class="p-3.5 rounded-2xl bg-neutral-900 text-white text-xs shadow-lg">
+        <div class="flex items-center justify-between text-amber-400 font-bold text-[11px] mb-1">
+          <span>TAX INVOICE COMPLIANT</span>
+          <span>VERIFIED</span>
         </div>
+        <p class="font-mono text-neutral-300 text-[11px]">GSTIN: 32AAWFC6374R1ZH</p>
+        <p class="text-[10px] text-neutral-400 mt-1">Ground Floor 11/207 CUSTOCORP, Poonoor Narikkuni Rd, Unnikulam</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Floating Liquid Glass Pill Navigation -->
+  <header class="fixed top-0 sm:top-4 left-0 right-0 z-40 sm:px-4 max-w-7xl mx-auto">
+    <nav class="glass-pill px-3 py-2 sm:px-4 sm:py-2 rounded-none sm:rounded-full flex items-center justify-between gap-2 sm:gap-3 shadow-md sm:shadow-xl border-b sm:border border-neutral-200/60 sm:border-white/60 bg-white/92 sm:bg-white/70 backdrop-blur-xl">
+      
+      <!-- Left: Menu Drawer Toggle + Exact Logo Image -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <button id="drawer-toggle-btn" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-800 text-xs font-bold transition-all border border-neutral-200/60 shadow-2xs" title="Open Menu">
+          <i data-lucide="menu" class="w-4 h-4"></i>
+          <span class="hidden sm:inline">Menu</span>
+        </button>
+
+        <!-- Official CUSTOCORP Logo Image Placement -->
+        <a href="#home" class="flex items-center gap-2 group">
+          <div class="h-9 sm:h-10 px-2 py-0.5 rounded-xl bg-white border border-neutral-200/60 shadow-2xs flex items-center justify-center">
+            <img 
+              src="assets/logo.jpg" 
+              alt="CUSTOCORP" 
+              class="h-7 sm:h-8 w-auto object-contain transition-transform group-hover:scale-105" 
+            />
+          </div>
+          <div class="hidden xl:flex flex-col">
+            <span class="text-[9px] font-bold uppercase tracking-widest text-neutral-500">Corporate Gifting Partner</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Center: Navigation Links (Desktop) -->
+      <div class="hidden lg:flex items-center gap-1 text-xs font-semibold text-neutral-700">
+        <a href="#home" class="px-3.5 py-1.5 rounded-full hover:bg-white/80 transition-all">Home</a>
+        <a href="#shop-section" class="px-3.5 py-1.5 rounded-full hover:bg-white/80 transition-all">Shop</a>
+        <a href="#hamper-studio-section" class="px-3.5 py-1.5 rounded-full bg-amber-400/20 text-amber-900 hover:bg-amber-400/30 font-bold transition-all flex items-center gap-1.5 shadow-xs">
+          <span>Select Your Goodies</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+        </a>
+        <a href="#how-it-works" class="px-3.5 py-1.5 rounded-full hover:bg-white/80 transition-all">How it works</a>
+        <a href="#collections-section" class="px-3.5 py-1.5 rounded-full hover:bg-white/80 transition-all">Occasions</a>
+        <a href="javascript:void(0)" onclick="window.custoApp.openCatalogModal()" class="px-3.5 py-1.5 rounded-full hover:bg-white/80 transition-all">Catalogue</a>
+        <a href="#compliance-section" class="px-3.5 py-1.5 rounded-full hover:bg-white/80 transition-all">Contact</a>
+      </div>
+
+      <!-- Right: Search Pill & Primary CTA -->
+      <div class="flex items-center gap-2">
+        <div class="relative hidden sm:block">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-neutral-400 absolute left-3 top-1/2 -translate-y-1/2"></i>
+          <input 
+            type="text" 
+            placeholder="Search gifts..." 
+            class="site-search-input pl-8 pr-3 py-1.5 text-xs rounded-full bg-white/70 focus:bg-white focus:outline-none focus:ring-2 focus:ring-amber-400/50 border border-neutral-200/60 w-36 md:w-44 transition-all"
+          />
+        </div>
+
+        <a 
+          href="https://wa.me/918136830182?text=Hello%20CUSTOCORP%2C%20I%20would%20like%20to%20request%20a%20corporate%20gifting%20quotation."
+          target="_blank"
+          class="btn-gold text-xs font-bold py-1.5 px-3 sm:px-4 shadow-xs flex items-center gap-1.5"
+        >
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+          <span>WhatsApp Quote</span>
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- Main Content Body -->
+  <main class="pt-16 sm:pt-24 md:pt-28">
+
+    <!-- HERO SECTION: Frosted Liquid Glass Showcase -->
+    <section id="home" class="px-4 max-w-7xl mx-auto pt-4 pb-12 reveal-on-scroll">
+      <div class="glass-card p-4 sm:p-8 md:p-12 border border-white/70 shadow-xl relative overflow-hidden rounded-2xl sm:rounded-3xl">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center relative z-10">
+          
+          <!-- Hero Text Content -->
+          <div class="lg:col-span-6 flex flex-col justify-center">
+            
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-400/20 border border-amber-400/40 text-amber-900 text-xs font-bold tracking-wider uppercase mb-5 w-fit shadow-xs">
+              <span class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span>
+              <span>Catalogue 2026–27 • Official Corporate Gifting</span>
+            </div>
+
+            <h1 class="font-display text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-neutral-900 leading-tight tracking-tight">
+              Take the whole collection <span class="font-serif-italic">to your team.</span>
+            </h1>
+
+            <p class="mt-5 text-sm sm:text-base text-neutral-600 leading-relaxed max-w-xl">
+              Every premium product on one curated digital catalogue with the <strong>CUSTOCORP</strong> quality guarantee, certified compliance, and low MOQs — ready to forward to your management or procurement team.
+            </p>
+
+            <!-- Action Buttons with Enhanced Fluid Animation -->
+            <div class="mt-6 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+              <button 
+                onclick="window.custoApp.openCatalogModal()" 
+                class="btn-gold text-sm font-bold py-3 px-6 shadow-lg"
+              >
+                <i data-lucide="download" class="w-4 h-4"></i>
+                <span>Get the catalogue</span>
+              </button>
+
+              <a 
+                href="#hamper-studio-section" 
+                class="btn-glass text-sm font-bold py-3 px-5 shadow-sm"
+              >
+                <i data-lucide="sparkles" class="w-4 h-4 text-amber-600"></i>
+                <span>Select Your Goodies</span>
+              </a>
+            </div>
+
+            <!-- Trust Bullet Points -->
+            <div class="mt-10 pt-6 border-t border-neutral-200/60 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs font-semibold text-neutral-600">
+              <div class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500 flex-shrink-0"></i>
+                <span>100% Custom Logo Print</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500 flex-shrink-0"></i>
+                <span>GST Tax Invoiced</span>
+              </div>
+              <div class="flex items-center gap-2 col-span-2 sm:col-span-1">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-500 flex-shrink-0"></i>
+                <span>Pan-India Bulk Delivery</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Visual Showcase Card with Real Catalogue Images -->
+          <div class="lg:col-span-6 animate-float-hero">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-white/80 bg-white/40 p-3">
+              <div class="grid grid-cols-2 gap-3">
+                <div class="relative h-64 sm:h-72 rounded-2xl overflow-hidden group">
+                  <img 
+                    src="assets/products/cat-gift-sets-2.jpg" 
+                    alt="Executive Welcome Kits" 
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-neutral-900/85 via-transparent to-transparent flex flex-col justify-end p-4">
+                    <span class="text-[10px] uppercase font-bold text-amber-400">Flagship Welcome Sets</span>
+                    <h4 class="text-white font-bold text-sm">Executive Onboarding Kits</h4>
+                  </div>
+                </div>
+
+                <div class="grid grid-rows-2 gap-3">
+                  <div class="relative rounded-2xl overflow-hidden group">
+                    <img 
+                      src="assets/products/cat-flasks-2.jpg" 
+                      alt="Smart LED Temp Bottle Sets" 
+                      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div class="absolute inset-0 bg-gradient-to-t from-neutral-900/75 to-transparent flex items-end p-3">
+                      <span class="text-xs font-bold text-white">Smart LED Temp Flask Sets</span>
+                    </div>
+                  </div>
+
+                  <div class="relative rounded-2xl overflow-hidden group">
+                    <img 
+                      src="assets/products/cat-tabletop-2.jpg" 
+                      alt="Office Table Top Sets" 
+                      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div class="absolute inset-0 bg-gradient-to-t from-neutral-900/75 to-transparent flex items-end p-3">
+                      <span class="text-xs font-bold text-white">Office Table Top Accessories</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Live Badge on Image -->
+              <div class="absolute bottom-6 left-6 right-6 p-3 rounded-2xl bg-neutral-950/85 backdrop-blur-md border border-white/20 text-white flex items-center justify-between shadow-2xl">
+                <div class="flex items-center gap-2.5">
+                  <div class="w-8 h-8 rounded-full bg-amber-400/20 text-amber-400 flex items-center justify-center font-bold">
+                    ★
+                  </div>
+                  <div>
+                    <div class="text-xs font-bold">Over 25,000+ Corporate Kits Delivered</div>
+                    <div class="text-[10px] text-neutral-400">Trusted by startups, MNCs & enterprises</div>
+                  </div>
+                </div>
+                <span class="badge-moq hidden sm:inline-block">MOQ: 25+ Units</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
 
-    <!-- ============ COLLECTIONS ============ -->
-    <section class="products section-padding bg-dark" id="products">
-        <div class="container">
-            <div class="text-center fade-up">
-                <p class="eyebrow">Collections</p>
-                <h2 class="section-title">Our Distinctive Categories</h2>
-                <div class="title-underline mx-auto"></div>
-                <p class="section-subtitle">Curated selections designed to impress and inspire.</p>
-            </div>
-            <div class="product-grid">
-                <div class="product-card fade-up">
-                    <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Corporate gift kits">
-                    <div class="card-content">
-                        <span class="card-num">01</span>
-                        <h3>Corporate Gift Kits</h3>
-                        <p>Complete curated boxes for clients and executives.</p>
-                    </div>
-                </div>
-                <div class="product-card fade-up">
-                    <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Employee onboarding kits">
-                    <div class="card-content">
-                        <span class="card-num">02</span>
-                        <h3>Employee Onboarding</h3>
-                        <p>Welcome new hires with stylish branded essentials.</p>
-                    </div>
-                </div>
-                <div class="product-card fade-up">
-                    <img src="https://images.unsplash.com/photo-1577061730799-73fb4dcbe6bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Festive gift hampers">
-                    <div class="card-content">
-                        <span class="card-num">03</span>
-                        <h3>Festive Hampers</h3>
-                        <p>Celebrate special occasions with luxurious treats.</p>
-                    </div>
-                </div>
-                <div class="product-card fade-up">
-                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Promotional merchandise">
-                    <div class="card-content">
-                        <span class="card-num">04</span>
-                        <h3>Promotional Merchandise</h3>
-                        <p>High-quality tech and accessories with your logo.</p>
-                    </div>
-                </div>
-                <div class="product-card fade-up">
-                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Eco-friendly gifts">
-                    <div class="card-content">
-                        <span class="card-num">05</span>
-                        <h3>Eco-friendly &amp; Sustainable</h3>
-                        <p>Thoughtful gifts that care for our planet.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- SECTION: HOW IT WORKS (4 Frosted Glass Cards matching clubcorporate.in) -->
+    <section id="how-it-works" class="px-4 max-w-7xl mx-auto py-12 reveal-on-scroll">
+      <div class="mb-8">
+        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 font-display">How It Works</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-neutral-900 mt-1">
+          From idea to <span class="font-serif-italic">delivered gift.</span>
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <!-- Step 01 -->
+        <div class="glass-card p-6 flex flex-col justify-between">
+          <div>
+            <span class="font-display text-2xl font-black text-amber-500/80">01</span>
+            <h3 class="font-display text-xl font-bold text-neutral-900 mt-2">Choose</h3>
+            <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+              Shortlist gifts with our catalog, or tell us your budget and occasion to receive tailored recommendations.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center gap-2 text-[11px] font-bold text-amber-700">
+            <i data-lucide="check" class="w-3.5 h-3.5"></i>
+            <span>Curated collections</span>
+          </div>
         </div>
+
+        <!-- Step 02 -->
+        <div class="glass-card p-6 flex flex-col justify-between">
+          <div>
+            <span class="font-display text-2xl font-black text-amber-500/80">02</span>
+            <h3 class="font-display text-xl font-bold text-neutral-900 mt-2">Customise</h3>
+            <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+              Share your brand logo. We add it via UV color print, laser engraving, or metallic foil, whichever suits the product.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center gap-2 text-[11px] font-bold text-amber-700">
+            <i data-lucide="check" class="w-3.5 h-3.5"></i>
+            <span>Precision branding</span>
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="glass-card p-6 flex flex-col justify-between">
+          <div>
+            <span class="font-display text-2xl font-black text-amber-500/80">03</span>
+            <h3 class="font-display text-xl font-bold text-neutral-900 mt-2">Approve the proof</h3>
+            <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+              You see a digital 3D mockup of every item before anything goes to final mass production.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center gap-2 text-[11px] font-bold text-amber-700">
+            <i data-lucide="check" class="w-3.5 h-3.5"></i>
+            <span>Zero-error guarantee</span>
+          </div>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="glass-card p-6 flex flex-col justify-between">
+          <div>
+            <span class="font-display text-2xl font-black text-amber-500/80">04</span>
+            <h3 class="font-display text-xl font-bold text-neutral-900 mt-2">Delivered</h3>
+            <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+              Packed in bespoke gift boxes and delivered to your corporate office or to each recipient pan-India.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-neutral-200/60 flex items-center gap-2 text-[11px] font-bold text-amber-700">
+            <i data-lucide="check" class="w-3.5 h-3.5"></i>
+            <span>On-time dispatch</span>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <!-- ============ CUSTOMIZATION ============ -->
-    <section class="customization section-padding" id="customization">
-        <div class="container customization-container">
-            <div class="custom-video slide-in-left">
-                <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Custom branding" class="custom-img">
+    <!-- SECTION: SIGNATURE "SELECT YOUR GOODIES" HAMPER STUDIO (2-in-1, 3-in-1, 4-in-1, 5-in-1) -->
+    <section id="hamper-studio-section" class="px-4 max-w-7xl mx-auto py-12 reveal-on-scroll">
+      <div class="glass-card p-6 md:p-10 border border-amber-300/40 shadow-2xl relative overflow-hidden bg-white/75">
+        
+        <!-- Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/20 text-amber-900 text-xs font-bold uppercase tracking-wider mb-2">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-600"></i>
+              <span>Interactive Goodies Studio</span>
             </div>
-            <div class="custom-text slide-in-right">
-                <p class="eyebrow">Customization</p>
-                <h2 class="section-title">Tailor-Made to Your Brand</h2>
-                <div class="title-underline"></div>
-                <p class="lead-muted">Your brand is unique, and your gifts should reflect that. We offer bespoke customization so your corporate identity shines through every detail.</p>
-                <div class="custom-features">
-                    <div class="feature-item">
-                        <div class="feature-icon"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8.5 14.5 7 22l5-3 5 3-1.5-7.5"/></svg></div>
-                        <div class="feature-details">
-                            <h4>Logo Printing</h4>
-                            <p>Precision engraving, embroidery and printing on all items.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
-                        <div class="feature-details">
-                            <h4>Packaging Design</h4>
-                            <p>Premium rigid boxes, ribbons and personalized greeting cards.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
-                        <div class="feature-details">
-                            <h4>Bulk Order Capability</h4>
-                            <p>Seamless processing and delivery for large-scale company orders.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-neutral-900">
+              Select Your Goodies & <span class="font-serif-italic">Custom Hamper Studio</span>
+            </h2>
+            <p class="text-xs sm:text-sm text-neutral-600 mt-2 max-w-xl">
+              Curate your branded corporate combo: select your goodies from our official catalogues, pick your luxury presentation box, and request an instant quotation.
+            </p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <span id="hamper-status-badge" class="badge-gold text-xs font-bold py-1.5 px-3">
+              3 of 3 Selected
+            </span>
+          </div>
         </div>
+
+        <!-- Step 1: Select Combo Tier (2-in-1 to 5-in-1) -->
+        <div class="mb-8">
+          <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-3">
+            Step 1: Select Hamper Configuration
+          </label>
+          <div id="hamper-tier-selector" class="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <!-- Populated dynamically by hamper-builder.js -->
+          </div>
+        </div>
+
+        <!-- Studio Main Workspace: Left Box Preview | Right Product Picker -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- LEFT: Virtual Hamper Box View (Slots & Packaging) -->
+          <div class="lg:col-span-5 bg-white/70 p-5 rounded-3xl border border-white shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="font-display text-sm font-bold text-neutral-900 flex items-center gap-2">
+                  <i data-lucide="package" class="w-4 h-4 text-amber-600"></i>
+                  <span>Your Hamper Box Preview</span>
+                </h4>
+                <span class="text-[11px] text-neutral-500 font-medium">Click ✕ to remove</span>
+              </div>
+
+              <!-- Product Slots -->
+              <div id="hamper-slots-container" class="space-y-2.5">
+                <!-- Populated dynamically -->
+              </div>
+
+              <!-- Packaging Box Selection -->
+              <div class="mt-6 pt-5 border-t border-neutral-200/60">
+                <label class="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2.5">
+                  Select Packaging Style
+                </label>
+                <div id="hamper-packaging-selector" class="space-y-2">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Pricing & Quantity Controls -->
+            <div class="mt-6 pt-5 border-t border-neutral-200/80 bg-neutral-900 text-white p-5 rounded-2xl shadow-xl">
+              
+              <div class="flex items-center justify-between mb-4">
+                <div>
+                  <label for="hamper-quantity-input" class="text-xs text-neutral-400 block font-semibold mb-1">Required Quantity (MOQ: 25)</label>
+                  <div class="flex items-center gap-2">
+                    <input 
+                      id="hamper-quantity-input" 
+                      type="number" 
+                      min="10" 
+                      max="5000" 
+                      step="5" 
+                      value="50" 
+                      class="w-24 px-3 py-1.5 rounded-lg bg-neutral-800 text-white font-bold text-sm border border-neutral-700 focus:outline-none focus:ring-2 focus:ring-amber-400"
+                    />
+                    <span class="text-xs text-neutral-400">kits</span>
+                  </div>
+                </div>
+
+                <div class="text-right">
+                  <span class="text-xs text-neutral-400 block font-semibold">Pricing Status</span>
+                  <div id="hamper-unit-price" class="font-display text-base font-bold text-amber-400">
+                    Quote on Request
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between py-2 border-t border-neutral-800 text-xs">
+                <span class="text-neutral-300">Custom Hamper Order:</span>
+                <span id="hamper-total-estimate" class="font-display text-sm font-bold text-white">
+                  50 Kits Selected
+                </span>
+              </div>
+
+              <div id="hamper-discount-badge" class="mt-2 text-center text-[11px] font-bold text-amber-400 bg-amber-400/10 py-1 rounded-md border border-amber-400/20">
+                Bulk Tier Discounts Applied on Official Quote
+              </div>
+
+              <!-- Instant Actions -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 pt-2">
+                <button 
+                  onclick="window.hamperStudio.sendWhatsAppQuote()" 
+                  class="btn-gold text-xs py-2.5 px-3 font-bold justify-center"
+                >
+                  <i data-lucide="message-circle" class="w-4 h-4"></i>
+                  <span>WhatsApp Quote</span>
+                </button>
+                <button 
+                  onclick="window.hamperStudio.openQuoteModalWithHamper()" 
+                  class="btn-glass text-xs py-2.5 px-3 font-bold justify-center bg-white/20 text-white hover:text-neutral-900 hover:bg-white"
+                >
+                  <i data-lucide="mail" class="w-4 h-4"></i>
+                  <span>Formal RFQ</span>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- RIGHT: Available Products Picker to Add into Slots -->
+          <div class="lg:col-span-7">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <h4 class="font-display text-sm font-bold text-neutral-900">
+                  Step 2: Select Your Goodies to Fill Your Slots
+                </h4>
+                <p class="text-xs text-neutral-500">Click "Add +" to add any goodie from the catalogue into your custom combo.</p>
+              </div>
+              <span class="text-xs font-semibold text-amber-700 bg-amber-100 px-2.5 py-1 rounded-full">
+                All Items Include Branding
+              </span>
+            </div>
+
+            <!-- Product Items List for Hamper -->
+            <div id="hamper-product-picker" class="grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[560px] overflow-y-auto pr-1">
+              <!-- Populated dynamically -->
+            </div>
+
+            <!-- Custom Branding Method Selector -->
+            <div class="mt-5 p-4 rounded-2xl bg-amber-50/70 border border-amber-200/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+              <div class="flex items-center gap-2">
+                <i data-lucide="palette" class="w-4 h-4 text-amber-600"></i>
+                <span class="font-bold text-neutral-800">Logo Branding Method:</span>
+              </div>
+              <select id="hamper-branding-select" class="px-3 py-1.5 rounded-lg bg-white border border-amber-300 font-semibold text-neutral-800 text-xs focus:outline-none">
+                <option value="Laser Engraving & UV Print">Laser Engraving & UV Color Print</option>
+                <option value="Metallic Gold Foil Stamping">Metallic Gold Foil Stamping</option>
+                <option value="Precision Screen Printing">Precision Screen Printing</option>
+                <option value="Blind Debossing on Leather">Blind Debossing on Leather</option>
+              </select>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </section>
 
-    <!-- ============ PROCESS ============ -->
-    <section class="process section-padding bg-dark" id="process">
-        <div class="container">
-            <div class="text-center fade-up">
-                <p class="eyebrow">How It Works</p>
-                <h2 class="section-title">From Idea to Doorstep</h2>
-                <div class="title-underline mx-auto"></div>
-                <p class="section-subtitle">A simple, transparent process built around your timeline.</p>
-            </div>
-            <div class="process-grid">
-                <div class="process-step fade-up">
-                    <span class="step-number">01</span>
-                    <h3>Enquire</h3>
-                    <p>Share your occasion, quantity and budget. We respond with ideas and a quote.</p>
-                </div>
-                <div class="process-step fade-up">
-                    <span class="step-number">02</span>
-                    <h3>Design</h3>
-                    <p>We shape the gift, branding and packaging around your identity.</p>
-                </div>
-                <div class="process-step fade-up">
-                    <span class="step-number">03</span>
-                    <h3>Approve</h3>
-                    <p>Review the final design and details before production begins.</p>
-                </div>
-                <div class="process-step fade-up">
-                    <span class="step-number">04</span>
-                    <h3>Deliver</h3>
-                    <p>Careful packing and on-time dispatch, tracked every step of the way.</p>
-                </div>
-            </div>
+    <!-- SECTION: THE COLLECTION (Visual Category Grid matching clubcorporate.in) -->
+    <section id="collections-section" class="px-4 max-w-7xl mx-auto py-12 reveal-on-scroll">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-600 font-display">The Collection</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-neutral-900 mt-1">
+            Gifts people <span class="font-serif-italic">keep using.</span>
+          </h2>
         </div>
+        <p class="text-xs sm:text-sm text-neutral-500 max-w-md">
+          Explore our extensive catalog organized by corporate utility, executive wellness, and high-retention enterprise merchandise.
+        </p>
+      </div>
+
+      <!-- Categories Visual Cards -->
+      <div id="collection-grid-container" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-5">
+        <!-- Rendered dynamically by app.js -->
+      </div>
     </section>
 
-    <!-- ============ WHY CHOOSE US ============ -->
-    <section class="features section-padding">
-        <div class="container text-center">
-            <div class="fade-up">
-                <p class="eyebrow">Why CustoCorp</p>
-                <h2 class="section-title">Why Choose CustoCorp</h2>
-                <div class="title-underline mx-auto"></div>
-            </div>
-            <div class="stats-grid">
-                <div class="stat-box fade-up">
-                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M9 3l3 6 3-6M12 9v12"/></svg></div>
-                    <h3>Premium Quality</h3>
-                    <p>We source only the finest materials for lasting elegance.</p>
-                </div>
-                <div class="stat-box fade-up">
-                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M20.6 13.4l-7.2 7.2a2 2 0 01-2.8 0L3 13V3h10l7.6 7.6a2 2 0 010 2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg></div>
-                    <h3>Competitive Bulk Pricing</h3>
-                    <p>Luxury meets value with our scalable pricing.</p>
-                </div>
-                <div class="stat-box fade-up">
-                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><path d="M1 6h13v10H1zM14 10h4l3 3v3h-7z"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></div>
-                    <h3>Fast &amp; Reliable Delivery</h3>
-                    <p>On-time nationwide dispatch, tracked every step of the way.</p>
-                </div>
-                <div class="stat-box fade-up">
-                    <div class="stat-icon"><svg class="ico" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4"/><path d="M12 8v13M5 12v9h14v-9M12 8c-2-4-6-3-5 0 .6 1.6 5 0 5 0zM12 8c2-4 6-3 5 0-.6 1.6-5 0-5 0z"/></svg></div>
-                    <h3>Unique Packaging</h3>
-                    <p>Unboxing experiences designed to delight.</p>
-                </div>
-            </div>
+    <!-- SECTION: SHOP & PRODUCT CATALOGUE (With Category Filter & MOQ Tags) -->
+    <section id="shop-section" class="px-4 max-w-7xl mx-auto py-12 reveal-on-scroll">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-600 font-display">Curated Merchandise</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-neutral-900 mt-1">
+            Enterprise Product Showcase
+          </h2>
+          <p class="text-xs sm:text-sm text-neutral-500 mt-1">
+            Every item includes transparent minimum order quantities (MOQ) and certified B2B GST invoices.
+          </p>
         </div>
+
+        <!-- Search Bar on Shop -->
+        <div class="relative w-full md:w-64">
+          <i data-lucide="search" class="w-4 h-4 text-neutral-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+          <input 
+            type="text" 
+            placeholder="Filter by name or code..." 
+            class="site-search-input pl-9 pr-4 py-2 text-xs rounded-full bg-white/80 border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400 w-full shadow-sm"
+          />
+        </div>
+      </div>
+
+      
+      <!-- Filter Buttons (Horizontal swipe on mobile) -->
+      
+      <!-- Filter Buttons: 9 Official CUSTOCORP Catalogue Collections -->
+      <div id="category-filter-buttons" class="flex items-center gap-2 overflow-x-auto pb-3 mb-5 scrollbar-none text-xs -mx-4 px-4 sm:mx-0 sm:px-0 scroll-smooth">
+        <button onclick="window.custoApp.filterByCategory('gift-sets')" data-category="gift-sets" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-bold bg-amber-400 text-neutral-900 shadow-sm transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Executive Gift Sets</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-900 text-amber-400 font-extrabold">61</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('flasks-drinkware')" data-category="flasks-drinkware" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Flasks & Drinkware</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">25</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('table-top')" data-category="table-top" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Office Table Top</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">12</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('custom-pens')" data-category="custom-pens" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Custom Pens</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">15</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('diaries-notebooks')" data-category="diaries-notebooks" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Diaries & Notebooks</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">45</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('organizers-portfolios')" data-category="organizers-portfolios" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Premium Organizers</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">21</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('mugs-collection')" data-category="mugs-collection" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Corporate Mugs</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">31</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('luxury-gifts')" data-category="luxury-gifts" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Luxury Gifts & VIP</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">55</span>
+        </button>
+        <button onclick="window.custoApp.filterByCategory('promotional-merchandise')" data-category="promotional-merchandise" class="cat-filter-btn px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full font-semibold bg-white/80 text-neutral-700 hover:bg-white border border-neutral-200/80 transition-all whitespace-nowrap flex items-center gap-1.5 flex-shrink-0">
+          <span>Promotional Merchandise</span>
+          <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-neutral-200/80 text-neutral-600 font-bold">12</span>
+        </button>
+      </div>
+
+      <!-- Dynamic Category Status Banner -->
+      <div id="shop-category-banner" class="mb-5">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 p-3 sm:p-4 rounded-2xl bg-neutral-900 text-white shadow-sm text-xs">
+          <div class="flex items-center gap-2.5">
+            <span class="bg-amber-400 text-neutral-900 text-[10px] font-extrabold uppercase px-2 py-0.5 rounded shadow-xs">Collection</span>
+            <div>
+              <h4 class="font-display font-bold text-xs sm:text-sm text-white">Executive Gift Sets (61 Products Available)</h4>
+              <p class="text-[10px] sm:text-[11px] text-neutral-400">DM 200, 300 & 400 Series: 2-in-1, 3-in-1 & 4-in-1 Onboarding Combos</p>
+            </div>
+          </div>
+          <a 
+            href="assets/catalogues/CUSTOCORP-Executive-Gift-Sets-Catalogue.pdf" 
+            download 
+            class="btn-gold text-[10px] sm:text-[11px] font-bold py-1.5 px-3 flex items-center gap-1.5 self-start sm:self-auto shadow-xs"
+          >
+            <i data-lucide="download" class="w-3 h-3"></i>
+            <span>Download PDF Catalogue</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Products Grid (Pre-rendered 2-column mobile layout with 277 total products dynamically available) -->
+      <div id="products-grid-container" class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-2.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 201)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 201
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.8
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 201)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 201)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 201: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 201)', code: 'DM 201', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 201)', 'DM 201', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-3.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 202)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 202
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.9
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 202)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 202)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 202: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 202)', code: 'DM 202', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 202)', 'DM 202', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-4.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 203)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 203
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 5
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 203)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 203)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 203: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 203)', code: 'DM 203', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 203)', 'DM 203', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-5.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 204)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 204
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.7
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 204)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 204)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 204: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 204)', code: 'DM 204', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 204)', 'DM 204', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-6.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 205)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 205
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.8
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 205)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 205)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 205: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 205)', code: 'DM 205', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 205)', 'DM 205', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-7.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 206)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 206
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.9
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 206)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 206)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 206: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 206)', code: 'DM 206', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 206)', 'DM 206', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-8.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 207)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 207
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 5
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 207)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 207)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 207: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 207)', code: 'DM 207', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 207)', 'DM 207', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-2.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 208)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 208
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.7
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 208)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 208)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 208: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 208)', code: 'DM 208', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 208)', 'DM 208', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-3.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 209)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 209
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.8
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 209)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 209)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 209: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 209)', code: 'DM 209', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 209)', 'DM 209', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-4.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 210)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 210
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.9
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 210)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 210)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 210: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 210)', code: 'DM 210', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 210)', 'DM 210', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-5.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 211)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 211
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 5
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 211)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 211)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 211: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 211)', code: 'DM 211', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 211)', 'DM 211', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-6.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 212)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 212
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.7
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 212)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 212)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 212: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 212)', code: 'DM 212', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 212)', 'DM 212', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-7.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 213)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 213
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.8
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 213)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 213)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 213: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 213)', code: 'DM 213', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 213)', 'DM 213', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-8.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 214)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 214
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.9
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 214)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 214)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 214: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 214)', code: 'DM 214', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 214)', 'DM 214', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-2.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 215)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 215
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 5
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 215)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 215)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 215: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 215)', code: 'DM 215', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 215)', 'DM 215', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="glass-card mobile-product-card overflow-hidden flex flex-col h-full group border border-white/80 hover:border-amber-400/60 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="relative h-44 sm:h-56 overflow-hidden bg-neutral-100 card-img-container">
+            <img 
+              src="assets/products/cat-gift-sets-3.jpg" 
+              alt="CUSTOCORP Executive 2-in-1 Combo Set (DM 216)" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute top-2.5 left-2.5 flex flex-wrap gap-1">
+              <span class="badge-moq text-[9px] sm:text-xs px-1.5 py-0.5">MOQ: 25</span>
+              <span class="bg-white/90 backdrop-blur-md text-neutral-800 text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded shadow-xs">
+                DM 216
+              </span>
+            </div>
+            <div class="absolute bottom-2.5 right-2.5">
+              <span class="bg-neutral-900/80 backdrop-blur-md text-amber-400 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-md">
+                ★ 4.7
+              </span>
+            </div>
+          </div>
+
+          <div class="p-3 sm:p-5 flex-1 flex flex-col justify-between card-body">
+            <div>
+              <div class="flex items-center justify-between text-[9px] sm:text-[11px] text-amber-700 font-bold uppercase tracking-wider mb-1">
+                <span class="truncate">Executive Gift Sets</span>
+                <span class="text-neutral-400 font-normal hidden sm:inline">Custom Logo Ready</span>
+              </div>
+              <h4 class="font-display font-bold text-neutral-900 text-xs sm:text-base group-hover:text-amber-600 transition-colors line-clamp-1" title="CUSTOCORP Executive 2-in-1 Combo Set (DM 216)">
+                CUSTOCORP Executive 2-in-1 Combo Set (DM 216)
+              </h4>
+              <p class="text-[11px] sm:text-xs text-neutral-600 mt-1 line-clamp-2 leading-relaxed">
+                Official Catalogue Model DM 216: Premium A5 Hardbound Vegan Leather Notebook paired with an Executive Matte Finish Metal Ballpoint Pen in a rigid presentation keepsake box.
+              </p>
+
+              <div class="mt-2 sm:mt-3 flex flex-wrap gap-1">
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    A5 Hardbound Notebook
+                  </span>
+                
+                  <span class="text-[9px] sm:text-[10px] font-semibold bg-neutral-100 text-neutral-700 px-1.5 py-0.5 rounded">
+                    Executive Metal Pen
+                  </span>
+                
+              </div>
+            </div>
+
+            <div class="pt-3 sm:pt-4 mt-3 border-t border-neutral-200/60">
+              <div class="flex items-baseline justify-between mb-2.5">
+                <div>
+                  <span class="text-[10px] sm:text-[11px] text-neutral-400 block font-medium">B2B Order</span>
+                  <span class="font-display text-xs sm:text-sm font-bold text-neutral-900">Quote on Request</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-[9px] sm:text-[10px] text-emerald-700 font-semibold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">
+                    MOQ: 25
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <button 
+                  onclick="window.custoApp.openQuoteModal({ productName: 'CUSTOCORP Executive 2-in-1 Combo Set (DM 216)', code: 'DM 216', moq: 25 })"
+                  class="btn-glass text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold"
+                >
+                  Quote
+                </button>
+                <button 
+                  onclick="window.custoApp.directWhatsAppProductInquiry('CUSTOCORP Executive 2-in-1 Combo Set (DM 216)', 'DM 216', 25)"
+                  class="btn-gold text-[11px] sm:text-xs py-2 px-1.5 sm:px-3 justify-center text-center font-bold flex items-center justify-center gap-1"
+                >
+                  <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                  <span>WhatsApp</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
     </section>
 
-    <!-- ============ PORTFOLIO ============ -->
-    <section class="portfolio section-padding bg-dark" id="portfolio">
-        <div class="container">
-            <div class="text-center fade-up">
-                <p class="eyebrow">Portfolio</p>
-                <h2 class="section-title">Our Masterpieces</h2>
-                <div class="title-underline mx-auto"></div>
-                <p class="section-subtitle">A look at some of our finest recent work.</p>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=700&q=80" alt="Gift box with ribbon"></div>
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=700&q=80" alt="Branded gift set"></div>
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=700&q=80" alt="Curated gift kit"></div>
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&q=80" alt="Corporate merchandise"></div>
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=700&q=80" alt="Sustainable gift"></div>
-                <div class="gallery-item fade-up"><img src="https://images.unsplash.com/photo-1577061730799-73fb4dcbe6bc?w=700&q=80" alt="Festive hamper"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============ CTA ============ -->
-    <section class="cta-banner">
-        <div class="container text-center fade-up">
-            <h2>Looking for the perfect corporate gift?<br>Let’s create it together.</h2>
-            <div class="cta-actions">
-                <a href="#contact" class="btn btn-primary">Request a Quote</a>
-                <a href="https://wa.me/918136830182" target="_blank" rel="noopener" class="btn btn-secondary">Chat on WhatsApp</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============ CONTACT ============ -->
-    <section class="contact section-padding" id="contact">
-        <div class="container contact-container">
-            <div class="contact-info slide-in-left">
-                <p class="eyebrow">Contact</p>
-                <h2 class="section-title">Get in Touch</h2>
-                <div class="title-underline"></div>
-                <p>Ready to elevate your corporate gifting? Send us your requirement or reach us directly. Our team will respond promptly.</p>
-
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 005 5L15 12l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></svg></span>
-                        <div><small>Hakkeem, Sales Manager</small><a href="tel:+918136830182">+91 81368 30182</a></div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
-                        <div><small>Email</small><a href="mailto:salescustocorp@gmail.com">salescustocorp@gmail.com</a></div>
-                    </div>
-                    <div class="contact-item whatsapp-btn">
-                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-13.4 7.8L3 21l1.3-4.4A9 9 0 1121 12z"/></svg></span>
-                        <div><small>WhatsApp</small><a href="https://wa.me/918136830182" target="_blank" rel="noopener">Chat with us</a></div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-                        <div>
-                            <small>Visit us</small>
-                            <a href="https://www.google.com/maps/search/?api=1&query=Ground+Floor+11%2F207+CUSTOCORP+Poonoor+Narikkuni+Road+Unnikulam" target="_blank" rel="noopener">Ground Floor 11/207 CUSTOCORP,<br>Poonoor Narikkuni Road, Unnikulam</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- SECTION: B2B COMPLIANCE, GSTIN & VERIFIED CREDENTIALS -->
+    <section id="compliance-section" class="px-4 max-w-7xl mx-auto py-12 reveal-on-scroll">
+      <div class="glass-card-dark p-8 md:p-12 rounded-3xl relative overflow-hidden">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-8">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/20 text-amber-400 text-xs font-bold tracking-wider uppercase mb-4">
+              <i data-lucide="shield-check" class="w-4 h-4"></i>
+              <span>Official B2B Verification & Compliance</span>
             </div>
 
-            <div class="contact-form-wrapper slide-in-right">
-                <form class="contact-form" novalidate>
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Company</label>
-                        <input type="text" id="company" name="company" required placeholder="Your company" autocomplete="organization">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" autocomplete="tel">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email <span class="optional">(optional)</span></label>
-                        <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="requirement">Your Requirement</label>
-                        <textarea id="requirement" name="requirement" rows="4" required placeholder="Occasion, quantity, budget and any branding needs..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100">Request Quote</button>
-                    <p class="form-note">Your enquiry opens in WhatsApp, ready to send to our team.</p>
-                    <p class="form-status" role="status" aria-live="polite"></p>
-                </form>
-            </div>
-        </div>
-    </section>
+            <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white">
+              CUSTOCORP Corporate Governance & Trust
+            </h2>
 
-    <!-- ============ FOOTER ============ -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-col">
-                <a href="#home" class="logo" aria-label="CustoCorp home">
-                    <img src="logo.svg" alt="" class="logo-mark" width="44" height="44">
-                    <span class="logo-text">CUSTO<span>CORP</span></span>
+            <p class="text-xs sm:text-sm text-neutral-300 mt-3 leading-relaxed max-w-2xl">
+              We operate under strict business compliance standards. All corporate procurements include official GST input credit tax invoices, verified bank transfers, and dedicated enterprise account management.
+            </p>
+
+            <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+              
+              <!-- GSTIN Card -->
+              <div class="p-4 rounded-2xl bg-neutral-900/90 border border-neutral-700">
+                <span class="text-[10px] uppercase font-bold text-neutral-400 block">Verified GSTIN</span>
+                <span class="font-mono text-sm sm:text-base font-bold text-amber-400 mt-1 block">
+                  32AAWFC6374R1ZH
+                </span>
+                <span class="text-[10px] text-emerald-400 flex items-center gap-1 mt-1 font-semibold">
+                  <i data-lucide="check" class="w-3 h-3"></i> 100% Tax Compliant
+                </span>
+              </div>
+
+              <!-- Corporate Sales Desk -->
+              <div class="p-4 rounded-2xl bg-neutral-900/90 border border-neutral-700">
+                <span class="text-[10px] uppercase font-bold text-neutral-400 block">Corporate Sales Hotline</span>
+                <a href="tel:+918136830182" class="font-mono text-sm sm:text-base font-bold text-white hover:text-amber-400 mt-1 block transition-colors">
+                  +91 81368 30182
                 </a>
-                <p>Your corporate gifting and employee engagement partner. Bulk orders, corporate gifts and promotional merchandise.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Explore</h4>
-                <a href="#about">About Us</a>
-                <a href="#products">Collections</a>
-                <a href="#customization">Customization</a>
-                <a href="#process">Process</a>
-                <a href="#portfolio">Portfolio</a>
-            </div>
-            <div class="footer-col">
-                <h4>Contact</h4>
-                <a href="tel:+918136830182">+91 81368 30182</a>
-                <a href="mailto:salescustocorp@gmail.com">salescustocorp@gmail.com</a>
-                <a href="https://custocorp.in" rel="noopener">custocorp.in</a>
-                <span class="footer-address">Ground Floor 11/207 CUSTOCORP,<br>Poonoor Narikkuni Road, Unnikulam</span>
-            </div>
-        </div>
-        <div class="container footer-bottom">
-            <p>&copy; <span id="year"></span> CustoCorp. All rights reserved.</p>
-            <p class="gst">GSTIN 32AAWFC6374R1ZH</p>
-        </div>
-    </footer>
+                <span class="text-[10px] text-neutral-400 mt-1 block">Voice & WhatsApp Enabled</span>
+              </div>
 
-    <a href="https://wa.me/918136830182" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-        <svg class="ico" viewBox="0 0 24 24"><path d="M21 12a9 9 0 01-13.4 7.8L3 21l1.3-4.4A9 9 0 1121 12z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8a3.5 3.5 0 01-1.8-1.8l.8-1-1-2z"/></svg>
+              <!-- Official Email -->
+              <div class="p-4 rounded-2xl bg-neutral-900/90 border border-neutral-700">
+                <span class="text-[10px] uppercase font-bold text-neutral-400 block">Official Mail Desk</span>
+                <a href="mailto:salescustocorp@gmail.com" class="text-xs sm:text-sm font-bold text-white hover:text-amber-400 mt-1 block truncate transition-colors">
+                  salescustocorp@gmail.com
+                </a>
+                <span class="text-[10px] text-neutral-400 mt-1 block">Quotes sent in under 2 hrs</span>
+              </div>
+
+            </div>
+
+            <!-- Address line -->
+            <div class="mt-6 flex items-start gap-2.5 text-xs text-neutral-300">
+              <i data-lucide="map-pin" class="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5"></i>
+              <span>Ground Floor 11/207 CUSTOCORP, Poonoor Narikkuni Road, Unnikulam, Kerala, India</span>
+            </div>
+
+          </div>
+
+          <!-- QR Code & Official Visiting Card Integration (Links directly to custocorp.in) -->
+          <div class="lg:col-span-4 flex flex-col items-center justify-center p-6 rounded-3xl bg-white/10 backdrop-blur-md border border-white/20 text-center shadow-xl">
+            
+            <!-- Real Scannable QR Code matching Official Visiting Card -->
+            <a 
+              href="https://custocorp.in" 
+              target="_blank" 
+              class="group relative block p-3 bg-white rounded-2xl shadow-2xl border-2 border-amber-400/60 hover:border-amber-400 transition-all duration-300 hover:scale-105 cursor-pointer"
+              title="Click or Scan with mobile phone to visit custocorp.in"
+            >
+              <div class="w-36 h-36 flex items-center justify-center overflow-hidden rounded-xl bg-white">
+                <img 
+                  src="assets/custocorp-qr.svg" 
+                  alt="Scan to visit custocorp.in" 
+                  class="w-full h-full object-contain"
+                />
+              </div>
+
+              <!-- Floating Scan Tooltip -->
+              <span class="absolute -bottom-2.5 left-1/2 -translate-x-1/2 bg-neutral-900 text-amber-400 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-amber-400/30 whitespace-nowrap shadow-sm group-hover:bg-amber-400 group-hover:text-neutral-900 transition-colors">
+                Scan or Click
+              </span>
+            </a>
+
+            <!-- URL Text matching Visiting Card -->
+            <a 
+              href="https://custocorp.in" 
+              target="_blank" 
+              class="font-display font-extrabold text-white text-base mt-4 tracking-wider hover:text-amber-300 transition-colors inline-flex items-center gap-1.5"
+            >
+              <span>custocorp.in</span>
+              <i data-lucide="external-link" class="w-3.5 h-3.5 text-amber-400"></i>
+            </a>
+            
+            <p class="text-[11px] text-neutral-300 mt-1 max-w-[220px]">
+              Scan with your smartphone camera to access our digital corporate catalog portal.
+            </p>
+
+            <div class="grid grid-cols-2 gap-2 mt-4 w-full">
+              <a 
+                href="https://custocorp.in" 
+                target="_blank" 
+                class="btn-gold text-[11px] font-bold py-2 px-3 justify-center shadow-md"
+              >
+                <i data-lucide="globe" class="w-3.5 h-3.5"></i>
+                <span>Open Portal</span>
+              </a>
+
+              <a 
+                href="https://wa.me/918136830182?text=Hello%20CUSTOCORP%20Corporate%20Sales%20Team%2C%20I%20am%20visiting%20custocorp.in%20and%20would%20like%20to%20discuss%20corporate%20gifting." 
+                target="_blank" 
+                class="btn-glass text-[11px] font-bold py-2 px-3 justify-center bg-white/20 text-white hover:text-neutral-900 hover:bg-white"
+              >
+                <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mt-20 border-t border-neutral-200/80 bg-white/70 backdrop-blur-xl">
+    <div class="px-4 max-w-7xl mx-auto py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        
+        <!-- Col 1: Brand Info & Official Logo -->
+        <div class="lg:col-span-2">
+          <div class="mb-4">
+            <div class="inline-block p-2 rounded-2xl bg-white shadow-sm border border-neutral-100">
+              <img src="assets/logo.jpg" alt="CUSTOCORP" class="h-10 w-auto object-contain" />
+            </div>
+          </div>
+
+          <p class="text-xs text-neutral-600 leading-relaxed max-w-sm">
+            Your Corporate Gifting & Employee Engagement Partner. Specializing in bulk orders, personalized promotional merchandise, and luxury onboarding hampers with verified GST tax compliance.
+          </p>
+
+          <div class="mt-4 text-xs font-mono text-neutral-700 bg-amber-50 px-3 py-2 rounded-xl border border-amber-200/60 inline-block">
+            <strong>GSTIN:</strong> 32AAWFC6374R1ZH
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h5 class="font-display font-bold text-xs uppercase tracking-wider text-neutral-900 mb-3.5">Navigation</h5>
+          <ul class="space-y-2 text-xs text-neutral-600 font-medium">
+            <li><a href="#home" class="hover:text-amber-600 transition-colors">Home Showcase</a></li>
+            <li><a href="#shop-section" class="hover:text-amber-600 transition-colors">Product Catalogue</a></li>
+            <li><a href="#hamper-studio-section" class="hover:text-amber-600 transition-colors">Select Your Goodies</a></li>
+            <li><a href="#how-it-works" class="hover:text-amber-600 transition-colors">How It Works</a></li>
+            <li><a href="#compliance-section" class="hover:text-amber-600 transition-colors">Compliance & Trust</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Popular Categories -->
+        <div>
+          <h5 class="font-display font-bold text-xs uppercase tracking-wider text-neutral-900 mb-3.5">Catalogue Collections</h5>
+          <ul class="space-y-2 text-xs text-neutral-600 font-medium">
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('gift-sets')" class="hover:text-amber-600 transition-colors">Executive Gift Sets (Cat 8)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('flasks-drinkware')" class="hover:text-amber-600 transition-colors">Flasks & Drinkware (Cat 5)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('table-top')" class="hover:text-amber-600 transition-colors">Office Table Top (Cat 7)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('custom-pens')" class="hover:text-amber-600 transition-colors">CUSTOCORP Pens (Cat 9)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('diaries-notebooks')" class="hover:text-amber-600 transition-colors">Diaries & Notebooks (Cat 2)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('organizers-portfolios')" class="hover:text-amber-600 transition-colors">Organizers & Folios (Cat 4)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('mugs-collection')" class="hover:text-amber-600 transition-colors">Mugs Collection (Cat 3)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('luxury-gifts')" class="hover:text-amber-600 transition-colors">Luxury Gifts & VIP (Cat 1)</a></li>
+            <li><a href="#shop-section" onclick="window.custoApp.filterByCategory('promotional-merchandise')" class="hover:text-amber-600 transition-colors">Promotional Tech (Cat 6)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Sales Desk -->
+        <div>
+          <h5 class="font-display font-bold text-xs uppercase tracking-wider text-neutral-900 mb-3.5">Corporate Sales Desk</h5>
+          <div class="space-y-2 text-xs text-neutral-600">
+            <p><strong>Hotline:</strong> <a href="tel:+918136830182" class="hover:text-amber-600">+91 81368 30182</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/918136830182" target="_blank" class="hover:text-amber-600">+91 81368 30182</a></p>
+            <p><strong>Email:</strong> <a href="mailto:salescustocorp@gmail.com" class="hover:text-amber-600">salescustocorp@gmail.com</a></p>
+            <p class="pt-2 text-[11px] text-neutral-500">
+              Ground Floor 11/207 CUSTOCORP,<br>Poonoor Narikkuni Road, Unnikulam
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-12 pt-6 border-t border-neutral-200/60 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
+        <p>&copy; 2026–2027 CUSTOCORP. All Rights Reserved. Pan-India Corporate Gifting.</p>
+        <div class="flex items-center gap-6">
+          <span class="hover:text-neutral-800">BULK ORDERS</span>
+          <span>•</span>
+          <span class="hover:text-neutral-800">CORPORATE GIFTS</span>
+          <span>•</span>
+          <span class="hover:text-neutral-800">PROMOTIONAL MERCHANDISE</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP CHAT BUTTON (Bottom Right) -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <a 
+      href="https://wa.me/918136830182?text=Hello%20CUSTOCORP%20Sales%20Team%2C%20I%20am%20interested%20in%20corporate%20gifting%20and%20welcome%20kits%20for%20my%20company." 
+      target="_blank"
+      class="floating-whatsapp w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-2xl hover:scale-110 transition-transform relative group"
+      title="Chat with Corporate Sales Desk"
+    >
+      <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+      <span class="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-neutral-900 text-white text-[11px] font-bold px-3 py-1.5 rounded-xl whitespace-nowrap shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity">
+        Chat with Corporate Sales Desk
+      </span>
     </a>
+  </div>
 
-    <script src="script.js"></script>
+  <!-- MODAL: REQUEST FORMAL B2B QUOTATION (RFQ) -->
+  <div id="quote-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-neutral-950/60 backdrop-blur-md">
+    <div class="glass-card max-w-lg w-full p-6 sm:p-8 bg-white border border-white/80 shadow-2xl relative max-h-[90vh] overflow-y-auto">
+      
+      <button 
+        onclick="window.custoApp.closeModal('quote-modal')" 
+        class="absolute top-5 right-5 w-8 h-8 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-600 flex items-center justify-center font-bold text-sm transition-colors"
+      >
+        ✕
+      </button>
+
+      <div class="mb-6">
+        <span class="badge-gold text-[10px] font-bold uppercase tracking-wider mb-2">B2B Formal RFQ</span>
+        <h3 class="font-display text-2xl font-bold text-neutral-900">Request Official Quotation</h3>
+        <p class="text-xs text-neutral-500 mt-1">
+          Receive an itemized quote with custom logo mockup & GST input breakdown.
+        </p>
+      </div>
+
+      <form id="rfq-form" class="space-y-4">
+        
+        <div>
+          <label class="block text-xs font-bold text-neutral-700 mb-1">Company / Organization Name *</label>
+          <input 
+            type="text" 
+            name="company-name" 
+            required 
+            placeholder="e.g. Infosys, Wipro, Tech Startup Pvt Ltd" 
+            class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400"
+          />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-neutral-700 mb-1">Contact Person Name *</label>
+            <input 
+              type="text" 
+              name="contact-person" 
+              required 
+              placeholder="Your Full Name" 
+              class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400"
+            />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-neutral-700 mb-1">Phone Number (WhatsApp) *</label>
+            <input 
+              type="tel" 
+              name="contact-phone" 
+              required 
+              placeholder="+91 98765 43210" 
+              class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-neutral-700 mb-1">Official Work Email *</label>
+          <input 
+            type="email" 
+            name="contact-email" 
+            required 
+            placeholder="name@company.com" 
+            class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400"
+          />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-neutral-700 mb-1">Selected Product / Hamper</label>
+            <input 
+              type="text" 
+              id="rfq-product-name" 
+              name="rfq-product-name" 
+              value="Executive Welcome Kit" 
+              class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-amber-400"
+            />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-neutral-700 mb-1">Required Quantity (MOQ: 25)</label>
+            <input 
+              type="number" 
+              id="rfq-quantity" 
+              name="rfq-quantity" 
+              value="50" 
+              min="10" 
+              class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-neutral-700 mb-1">Branding Notes & Target Delivery Date</label>
+          <textarea 
+            name="rfq-notes" 
+            rows="3" 
+            placeholder="Describe your logo printing preference (e.g., laser engraving on metal, gold foil on box) and required date..."
+            class="w-full px-3.5 py-2 text-xs rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-amber-400"
+          ></textarea>
+        </div>
+
+        <div class="pt-2">
+          <button type="submit" class="btn-gold w-full py-3 justify-center text-xs font-bold shadow-lg">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Submit Quotation Request</span>
+          </button>
+          <p class="text-[10px] text-center text-neutral-400 mt-2">
+            Transmits directly to Corporate Sales Desk (+91 81368 30182)
+          </p>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <!-- MODAL: DOWNLOAD CATALOGUE -->
+  <div id="catalog-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-neutral-950/65 backdrop-blur-md">
+    <div class="glass-card max-w-2xl w-full p-6 sm:p-8 bg-white border border-white/80 shadow-2xl relative max-h-[92vh] overflow-y-auto">
+      
+      <button 
+        onclick="window.custoApp.closeModal('catalog-modal')" 
+        class="absolute top-5 right-5 w-8 h-8 rounded-full bg-neutral-100 hover:bg-neutral-200 text-neutral-600 flex items-center justify-center font-bold text-sm transition-colors z-10"
+      >
+        ✕
+      </button>
+
+      <div class="flex items-center gap-4 mb-5">
+        <div class="w-14 h-14 rounded-2xl bg-amber-400/20 text-amber-700 flex items-center justify-center flex-shrink-0">
+          <i data-lucide="file-text" class="w-7 h-7"></i>
+        </div>
+        <div>
+          <span class="badge-gold text-[10px] font-bold uppercase mb-1">CUSTOCORP Official B2B Catalogues</span>
+          <h3 class="font-display text-2xl font-bold text-neutral-900">Download Corporate Catalogues</h3>
+          <p class="text-xs text-neutral-500 mt-0.5">
+            Select and download official 2026–27 PDF catalogues with transparent volume pricing and specifications.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Master Download Action Bar -->
+      <div class="p-4 rounded-2xl bg-neutral-900 text-white flex flex-col sm:flex-row items-center justify-between gap-3 mb-6 shadow-md">
+        <div>
+          <span class="text-amber-400 text-xs font-bold uppercase tracking-wider block">Flagship Catalogue</span>
+          <h4 class="font-display text-sm font-bold">Executive Gift Sets & Welcome Kits 2026–27</h4>
+          <span class="text-[10px] text-neutral-400">PDF Document • 20.1 MB</span>
+        </div>
+        <div class="flex items-center gap-2 w-full sm:w-auto">
+          <button 
+            onclick="window.custoApp.downloadCatalogPDF()" 
+            class="btn-gold text-xs py-2 px-4 font-bold shadow-sm flex-1 sm:flex-none justify-center"
+          >
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span>Download PDF</span>
+          </button>
+          <a 
+            href="https://wa.me/918136830182?text=Hello%20CUSTOCORP%2C%20please%20send%20the%20complete%20Corporate%20Gifting%20Catalogue%202026-27%20PDF%20to%20my%20WhatsApp." 
+            target="_blank"
+            class="btn-glass text-xs py-2 px-3 font-bold bg-white/20 text-white hover:text-neutral-900 hover:bg-white flex-1 sm:flex-none justify-center"
+            title="Receive on WhatsApp"
+          >
+            <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span class="hidden sm:inline">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Individual Category Catalogues List -->
+      <div>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-600 mb-3 flex items-center justify-between">
+          <span>Download by Category Collection</span>
+          <span class="text-neutral-400 font-normal">9 Official Catalogues Available</span>
+        </h4>
+        <div id="catalogues-list-container" class="space-y-2 max-h-[380px] overflow-y-auto pr-1">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/hamper-builder.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Lucide Icons Initialization & Scroll Reveal Observer -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+
+      // Smooth scroll reveal observer
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+          observer.observe(el);
+        });
+      } else {
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+          el.classList.add('revealed');
+        });
+      }
+    });
+  </script>
+
+
+  <!-- Mobile Bottom Sticky Navigation Dock (iOS / Android Style) -->
+  <nav class="mobile-bottom-nav">
+    <a href="#home" class="mobile-nav-item" title="Home">
+      <i data-lucide="home"></i>
+      <span>Home</span>
+    </a>
+    <a href="#shop-section" class="mobile-nav-item" title="Catalogue">
+      <i data-lucide="shopping-bag"></i>
+      <span>Catalogue</span>
+    </a>
+    <a href="#hamper-studio-section" class="mobile-nav-item" title="Select Goodies">
+      <i data-lucide="sparkles" class="text-amber-500"></i>
+      <span>Goodies</span>
+    </a>
+    <a href="https://wa.me/918136830182?text=Hello%20CUSTOCORP%2C%20I%20am%20browsing%20your%20corporate%20gifting%20catalogue%20and%20would%20like%20a%20bulk%20quote." target="_blank" class="mobile-nav-item text-emerald-600 font-bold" title="WhatsApp Quote">
+      <i data-lucide="message-circle" class="text-emerald-500"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="tel:+918136830182" class="mobile-nav-item" title="Call Us">
+      <i data-lucide="phone"></i>
+      <span>Call</span>
+    </a>
+  </nav>
+
 </body>
 </html>
